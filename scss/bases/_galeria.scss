@@ -1,0 +1,26 @@
+/* Inicio de galeria */
+
+.header-galeria {
+    margin-top: -170px;
+}
+.carousel-inner{
+    margin-top: 170px;
+
+
+    img{
+      width: 100vh;
+      height: 85vh;
+ }
+}
+.carousel-caption h5{
+    font-size: 70px;
+    color: rgb(26, 1, 1);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-shadow: 5px 5px 8px rgb(199, 182, 182);
+    text-decoration: underline;
+    font-family: 'Satisfy', cursive;
+    
+}
+/* Fin de Galeria */

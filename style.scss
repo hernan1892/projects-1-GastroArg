@@ -1,0 +1,32 @@
+@import "scss/bases/header";
+@import "scss/bases/inicio";
+@import "scss/bases/footer";
+@import "scss/bases/entradas";
+@import "scss/bases/plato";
+@import "scss/bases/postres";
+@import "scss/bases/galeria";
+
+
+/* fonde de la pagina */
+
+body {
+   
+    background-image: url(Imagenes/fonfo3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+/* resetear los los bordes */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ /* centrar pagina web */
+ .wrapper {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}

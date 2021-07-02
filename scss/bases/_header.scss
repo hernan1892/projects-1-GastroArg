@@ -1,0 +1,90 @@
+/* inicio de Navber */
+header{
+    position: fixed;
+    z-index:1000;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.77);
+
+    .titulo h1{
+        font-family: 'Pacifico', cursive;
+        color: burlywood;
+        padding-top: 10px;
+    }
+    .logo h2{
+        font-weight:bold;
+        color: linen;
+        letter-spacing: 10px;
+        padding-right: 20px;
+        transition: all 1s;
+    }
+    .mi-button{
+        color:linen;
+       
+    }
+     .ul-mia{
+         
+        margin-left: auto;
+    }
+    .ul-mia li a {
+
+        font-size: 25px;
+        color: linen;
+
+        &:hover{
+            background-color: rgba(215, 198, 198, 0.311);
+            border-radius: 10px;
+            color: linen;
+            transition: 1s;
+        }
+    }
+    
+    @media  screen and (min-width: 568px) and (max-width:1050px){
+        header{
+            position: fixed;
+            z-index:1000;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.77);
+          
+        }
+        .titulo h1{
+            font-family: 'Pacifico', cursive;
+            color: burlywood;
+            padding-top: 10px;
+        }
+        .ul-mia{
+            margin-left:0;
+            width: max-content;
+            
+        }
+        .navbar{
+            display:block;
+        }
+        .conteiner-columna{
+            display: block;
+        }
+        
+        .ul-mia li a {
+            font-size: 20px;
+            color: linen;
+        }
+        .ul-mia a:hover{
+            background-color: rgba(215, 198, 198, 0.311);
+            border-radius: 10px;
+            color: linen;
+            transition: 1s;
+        }
+        .logo h3{
+            font-weight:bold;
+            color: linen;
+            letter-spacing: 5px;
+            padding-right: 20px;
+           
+        }
+       
+    
+    
+    
+    }
+}
+
+/* fin de Navber */
