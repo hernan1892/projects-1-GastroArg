@@ -152,42 +152,43 @@
 
    
     .conteiner1 {
-        width: 100%;
-        margin-bottom: 70px;
-        margin-top: -150px;
+      
+        margin-bottom: 80px;
+        margin-top: -100px;
        
     }
     
     img {
-        width: 360px;
-        height: 300px;
+        width: 314px;
+        height: 280px;
         border-radius: 50px;  
-        margin-left: 20px;  
+        margin-left: 18px;  
         margin-bottom: 10px;
     }
  
     .conteiner-img-p{
-        display: block;    
-    }
-    .conteiner2{
-        width: 100%;    
+        display: block;   
+      
+    }  
+     .conteiner2{
+            
         margin-bottom: 80px;
-    }
+    } 
     .conteiner-img-p-2 {
         display: block;  
     }
     .conteiner3{
-        width: 100%;
+        
         margin-bottom: 80px;
     
-     }
+     } 
      .conteiner-img-p-3{
         display: block;
     }
-     .conteiner4{
-        width: 100%;
+      .conteiner4{
+       
         margin-bottom: 80px;
-    }
+    } 
     .conteiner4 h2{
         font-size: 35px;
         text-align: center;
@@ -195,11 +196,11 @@
     .conteiner-img-p-4 {
         display: block;     
     }
-    .conteiner5{
-        width: 100%;
+     .conteiner5{
+        
         margin-bottom: 80px;
     
-     }
+     } 
      .conteiner5 h2{
         font-size: 35px;
         text-align: center;
@@ -211,9 +212,7 @@
     }
  }
   @media  screen and (min-width: 401px) and (max-width:960px){
-    .sectionentradas{
-        padding-top: 100px;
-    }
+    
     img {
         width: 360px;
         height: 300px;
@@ -222,8 +221,8 @@
         margin-bottom: 10px;
     }
     .conteiner1 {
-        width: 100%;
-        margin-bottom: 100px;
+        margin-top: -100px;
+        margin-bottom: 70px;
     }
     .conteiner-img-p{
         margin: auto;
@@ -244,7 +243,7 @@
         font-family: 'Prompt', sans-serif;
     }
     .conteiner2 {
-        width: 100%;
+       
         margin-bottom: 70px;
     }
     .conteiner-img-p-2 {
@@ -267,7 +266,7 @@
 
      }
      .conteiner3 {
-        width: 100%;
+       
         margin-bottom: 70px;
     }
      .conteiner-img-p-3{
@@ -291,14 +290,14 @@
         font-family: 'Prompt', sans-serif;
     }
     .conteiner4 {
-        width: 100%; 
+       
         margin-bottom: 100px;
     }
     .conteiner-img-p-4 {
         display: block;
         margin: auto;
         background-color:rgba(247, 244, 239, 0.994); 
-        width: 100%;
+        
         border-radius: 10px;
     }
     .conteiner-img-p-4 img{

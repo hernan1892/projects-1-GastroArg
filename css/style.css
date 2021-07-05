@@ -24,6 +24,7 @@ header .ul-mia {
   margin-left: auto;
 }
 header .ul-mia li a {
+  width: max-content;
   font-size: 25px;
   color: linen;
 }
@@ -33,7 +34,7 @@ header .ul-mia li a:hover {
   color: linen;
   transition: 1s;
 }
-@media screen and (min-width: 568px) and (max-width: 1050px) {
+@media screen and (min-width: 401px) and (max-width: 960px) {
   header header {
     position: fixed;
     z-index: 1000;
@@ -65,11 +66,12 @@ header .ul-mia li a:hover {
     color: linen;
     transition: 1s;
   }
-  header .logo h3 {
+  header .logo h2 {
     font-weight: bold;
     color: linen;
     letter-spacing: 5px;
     padding-right: 20px;
+    font-size: 15px;
   }
 }
 
@@ -200,147 +202,158 @@ header .ul-mia li a:hover {
 
 /* Fin de section pagina Home */
 /* inicio footer */
-footer {
+.contenedorfooter {
   width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
   color: #f2e4e4;
   background-color: rgba(0, 0, 0, 0.872);
 }
-footer .contenedorfooter {
-  width: 100%;
-  /* max-width: 1919px; */
-  margin-top: 20px;
-  padding-top: 20px;
-}
-footer .contenedorfooter .conteiner-columna {
+.contenedorfooter .conteiner-columna {
   display: flex;
   justify-content: space-around;
 }
-footer .contenedorfooter .conteiner-columna .columna-1 {
+.contenedorfooter .conteiner-columna .columna-1 {
   width: 100%;
   text-align: center;
 }
-footer .contenedorfooter .conteiner-columna .columna-1 h4 {
+.contenedorfooter .conteiner-columna .columna-1 h4 {
   font-size: 40px;
   text-decoration: underline;
 }
-footer .contenedorfooter .conteiner-columna .columna-1 .fila {
+.contenedorfooter .conteiner-columna .columna-1 .fila {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
-footer .contenedorfooter .conteiner-columna .columna-1 .fila img {
+.contenedorfooter .conteiner-columna .columna-1 .fila img {
   width: 35px;
   height: 35px;
 }
-footer .contenedorfooter .conteiner-columna .columna-1 .fila label {
+.contenedorfooter .conteiner-columna .columna-1 .fila label {
   margin-top: 10px;
   margin-left: 10px;
   color: #f5d4d4;
 }
-footer .contenedorfooter .conteiner-columna .columna-2 {
+.contenedorfooter .conteiner-columna .columna-2 {
   width: 100%;
   text-align: center;
 }
-footer .contenedorfooter .conteiner-columna .columna-2 h4 {
+.contenedorfooter .conteiner-columna .columna-2 h4 {
   font-size: 40px;
   text-decoration: underline;
 }
-footer .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
+.contenedorfooter .conteiner-columna .columna-2 .fila2 p {
   margin-top: 25px;
   color: #f5d4d4;
   font-size: 25px;
 }
-footer .contenedorfooter .conteiner-columna .columna-3 {
+.contenedorfooter .conteiner-columna .columna-3 {
   width: 100%;
   text-align: center;
 }
-footer .contenedorfooter .conteiner-columna .columna-3 h4 {
+.contenedorfooter .conteiner-columna .columna-3 h4 {
   font-size: 40px;
   text-decoration: underline;
 }
-footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
+.contenedorfooter .conteiner-columna .columna-3 .comentario {
   text-align: left;
   margin-top: 20px;
   margin-left: 30px;
   color: #f5d4d4;
 }
 @media screen and (max-width: 400px) {
-  footer .conteiner-columna {
+  .contenedorfooter .conteiner-columna {
     flex-wrap: wrap;
   }
-  footer .columna-1 {
+  .contenedorfooter .conteiner-columna .columna-1 {
     width: 100%;
     padding-bottom: 20px;
     align-items: center;
   }
-  footer .columna-1 h4 {
-    font-size: 30px;
+  .contenedorfooter .conteiner-columna .columna-1 h4 {
+    font-size: 20px;
     text-decoration: underline;
   }
-  footer .fila label {
+  .contenedorfooter .conteiner-columna .fila label {
     margin-top: 5px;
     margin-left: 5px;
     color: #f5d4d4;
   }
-  footer .fila img {
-    width: 30px;
-    height: 30px;
+  .contenedorfooter .conteiner-columna .fila img {
+    width: 20px;
+    height: 20px;
   }
-  footer .columna-2 h4 {
-    font-size: 30px;
+  .contenedorfooter .conteiner-columna .columna-2 h4 {
+    font-size: 20px;
     text-decoration: underline;
   }
-  footer .fila2 p {
+  .contenedorfooter .conteiner-columna .columna-2 {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+  .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
     margin-top: 0px;
     color: #f5d4d4;
     font-size: 20px;
   }
-  footer .columna-2 {
-    width: 100%;
-    padding-bottom: 20px;
-    margin-top: 20px;
-  }
-  footer .columna-3 {
+  .contenedorfooter .conteiner-columna .columna-3 {
     width: 100%;
     padding-bottom: 20px;
   }
-  footer .columna-3 h4 {
-    font-size: 30px;
-    text-decoration: underline;
-  }
-  footer .comentario {
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 40px;
+  .contenedorfooter .conteiner-columna .columna-3 .comentario {
+    text-align: center;
     color: #f5d4d4;
+  }
+  .contenedorfooter .conteiner-columna .columna-3 h4 {
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
-  footer .columna-1 {
-    width: 50%;
+  .contenedorfooter .conteiner-columna .columna-1 {
+    width: 100%;
     padding-bottom: 20px;
   }
-  footer .columna-1 h4 {
-    font-size: 30px;
-    text-decoration: underline;
-  }
-  footer .columna-2 {
-    width: 50%;
-  }
-  footer .columna-2 h4 {
-    font-size: 30px;
-    text-decoration: underline;
-  }
-  footer .fila2 p {
+  .contenedorfooter .conteiner-columna .columna-1 h4 {
     font-size: 20px;
+    text-decoration: underline;
   }
-  footer .columna-3 {
+  .contenedorfooter .conteiner-columna .columna-1 .fila label {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #f5d4d4;
+    font-size: 12px;
+  }
+  .contenedorfooter .conteiner-columna .columna-1 .fila img {
+    width: 17px;
+    height: 17px;
+  }
+  .contenedorfooter .conteiner-columna .columna-2 {
     width: 100%;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
   }
-  footer .columna-3 h4 {
-    font-size: 30px;
+  .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
+    font-size: 12px;
+  }
+  .contenedorfooter .conteiner-columna .columna-2 h4 {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .contenedorfooter .conteiner-columna .columna-3 {
+    width: 100%;
+    text-align: center;
+  }
+  .contenedorfooter .conteiner-columna .columna-3 .comentario {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 10px;
+    color: #f5d4d4;
+  }
+  .contenedorfooter .conteiner-columna .columna-3 h4 {
+    font-size: 20px;
     text-decoration: underline;
   }
 }
@@ -474,36 +487,32 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
 }
 @media screen and (max-width: 400px) {
   .sectionentradas .conteiner1 {
-    width: 100%;
-    margin-bottom: 70px;
-    margin-top: -150px;
+    margin-bottom: 80px;
+    margin-top: -100px;
   }
   .sectionentradas img {
-    width: 360px;
-    height: 300px;
+    width: 314px;
+    height: 280px;
     border-radius: 50px;
-    margin-left: 20px;
+    margin-left: 18px;
     margin-bottom: 10px;
   }
   .sectionentradas .conteiner-img-p {
     display: block;
   }
   .sectionentradas .conteiner2 {
-    width: 100%;
     margin-bottom: 80px;
   }
   .sectionentradas .conteiner-img-p-2 {
     display: block;
   }
   .sectionentradas .conteiner3 {
-    width: 100%;
     margin-bottom: 80px;
   }
   .sectionentradas .conteiner-img-p-3 {
     display: block;
   }
   .sectionentradas .conteiner4 {
-    width: 100%;
     margin-bottom: 80px;
   }
   .sectionentradas .conteiner4 h2 {
@@ -514,7 +523,6 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
     display: block;
   }
   .sectionentradas .conteiner5 {
-    width: 100%;
     margin-bottom: 80px;
   }
   .sectionentradas .conteiner5 h2 {
@@ -527,9 +535,6 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
-  .sectionentradas .sectionentradas {
-    padding-top: 100px;
-  }
   .sectionentradas img {
     width: 360px;
     height: 300px;
@@ -538,8 +543,8 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
     margin-bottom: 10px;
   }
   .sectionentradas .conteiner1 {
-    width: 100%;
-    margin-bottom: 100px;
+    margin-top: -100px;
+    margin-bottom: 70px;
   }
   .sectionentradas .conteiner-img-p {
     margin: auto;
@@ -560,7 +565,6 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
     font-family: "Prompt", sans-serif;
   }
   .sectionentradas .conteiner2 {
-    width: 100%;
     margin-bottom: 70px;
   }
   .sectionentradas .conteiner-img-p-2 {
@@ -582,7 +586,6 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
     font-family: "Prompt", sans-serif;
   }
   .sectionentradas .conteiner3 {
-    width: 100%;
     margin-bottom: 70px;
   }
   .sectionentradas .conteiner-img-p-3 {
@@ -604,14 +607,12 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
     font-family: "Prompt", sans-serif;
   }
   .sectionentradas .conteiner4 {
-    width: 100%;
     margin-bottom: 100px;
   }
   .sectionentradas .conteiner-img-p-4 {
     display: block;
     margin: auto;
     background-color: rgba(247, 244, 239, 0.994);
-    width: 100%;
     border-radius: 10px;
   }
   .sectionentradas .conteiner-img-p-4 img {
@@ -1153,7 +1154,7 @@ footer .contenedorfooter .conteiner-columna .columna-3 .comentario {
 /* Fin de Galeria */
 /* fonde de la pagina */
 body {
-  background-image: url(Imagenes/fonfo3.jpg);
+  background-image: url(../Imagenes/fonfo3.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

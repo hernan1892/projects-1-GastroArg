@@ -1,18 +1,17 @@
 
  /* inicio footer */
 
- footer {
-  width: 100%; 
-  color: rgb(242, 228, 228);
-  background-color: rgba(0, 0, 0, 0.872);
-
-  .contenedorfooter{
+ 
+   .contenedorfooter{
     width: 100%;
-    /* max-width: 1919px; */
     margin-top: 20px;
     padding-top: 20px;
+    color: rgb(242, 228, 228);
+    background-color: rgba(0, 0, 0, 0.872);
 
-    .conteiner-columna{
+    
+
+     .conteiner-columna{
       display: flex;
       justify-content: space-around;
             
@@ -72,100 +71,126 @@
           color:  rgb(245, 212, 212);
         }
       }
+    }  
+    @media  screen and (max-width: 400px) {
 
-    }
-  }
-
-  @media  screen and (max-width: 400px) {
-
-    .conteiner-columna {
-     flex-wrap: wrap;
-    }
-             
-    .columna-1{
-     width: 100%;
-     padding-bottom: 20px;
-     align-items: center;
-    }
-    .columna-1 h4 {
-     font-size: 30px;
-     text-decoration: underline;
-    }
-    .fila label {
-      margin-top: 5px;
-      margin-left: 5px;
-      color: rgb(245, 212, 212);      
-    }
-    .fila img{
-     width: 30px;
-     height: 30px;
-    }
-    .columna-2 h4{
-     font-size: 30px;
-     text-decoration: underline;
-    }
-    .fila2 p{
-     margin-top: 0px;
-     color: rgb(245, 212, 212);
-     font-size: 20px;
-    }
-    .columna-2{
-     width: 100%;
-     padding-bottom: 20px;
-     margin-top: 20px;
-    }
-    .columna-3{
-     width: 100%;
-     padding-bottom: 20px;
-    }
-    .columna-3 h4{
-     font-size: 30px;
-     text-decoration: underline;
-    }    
-    .comentario {
-     text-align: left;
-     margin-top: 20px;
-     margin-left: 40px;
-     color:  rgb(245, 212, 212);
-    }
-             
-  }   
-  @media  screen and (min-width: 401px) and (max-width:960px){
-    
-    .columna-1{
-        width: 50%;
-        padding-bottom: 20px;
+     .conteiner-columna {
+      flex-wrap: wrap;
        
-    }
-    .columna-1 h4 {
-        font-size: 30px;
-        text-decoration: underline;
-    }
-    .columna-2{
-        width: 50%;
-         
-    }
-    .columna-2 h4 {
-        font-size: 30px;
-        text-decoration: underline;
-    }
-    .fila2 p{
-        font-size: 20px;
-    }
-    .columna-3{
+      .columna-1{
         width: 100%;
-        margin-bottom: 20px;
-        flex-wrap: wrap;       
-    }
-    .columna-3 h4 {
-        font-size: 30px;
+        padding-bottom: 20px;
+        align-items: center;
+       }
+       .columna-1 h4 {
+        font-size: 20px;
         text-decoration: underline;
-    }
+       }
+       .fila label {
+         margin-top: 5px;
+         margin-left: 5px;
+         color: rgb(245, 212, 212);      
+       }
+       .fila img{
+        width: 20px;
+        height: 20px;
+       }
+       .columna-2 h4{
+        font-size: 20px;
+        text-decoration: underline;
+       }
     
+       .columna-2{
+        width: 100%;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        .fila2 p{
+          margin-top: 0px;
+          color: rgb(245, 212, 212);
+          font-size: 20px;
+         }
+       }
+       .columna-3{
+        width: 100%;
+        padding-bottom: 20px;
+        .comentario {
+          text-align: center;
+          
+          color:  rgb(245, 212, 212);
+         }
+        
+       }
+       .columna-3 h4{
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+       }    
+       
+     }
+              
+   }   
+   @media  screen and (min-width: 401px) and (max-width:960px){
      
- }
-    
+    .conteiner-columna {
+      
+     .columna-1{
+         width: 100%;
+         padding-bottom: 20px;
+
+         h4 {
+          font-size:20px;
+          text-decoration: underline;
   
-}
+        }
+        .fila label {
+          margin-top: 5px;
+          margin-left: 5px;
+          color: rgb(245, 212, 212); 
+          font-size: 12px;     
+        }
+        .fila img{
+          width: 17px;
+          height: 17px;
+         }
+        
+     }
+     
+     .columna-2{
+         width: 100%;
+         .fila2 p{
+          font-size: 12px;
+          
+      }
+          
+     }
+     .columna-2 h4 {
+         font-size: 20px;
+         text-decoration: underline;
+     }
+   
+     .columna-3{
+         width: 100%; 
+         text-align: center;
+               
+          
+       
+     
+        .comentario {
+          text-align: center;
+          margin-top: 20px;
+          margin-left: 30px;
+          font-size: 10px;
+          color:  rgb(245, 212, 212);
+        }
+      }
+     .columna-3 h4 {
+         font-size: 20px;
+         text-decoration: underline;
+     }
+          
+   }
+      
+  }  
+ }   
 /* fin de footer */
 
