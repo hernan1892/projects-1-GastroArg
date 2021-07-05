@@ -1,3 +1,6 @@
+/* variables */
+@import "../bases/variables";
+
 /* Inicio de section pagina Home */
 
 .contenidoweb1 {
@@ -10,18 +13,18 @@
     /* subtitulo del video */
     .h3subtitulo {
         font-size: 50px;
-        color: rgb(77, 46, 15);
+        color: $web0-h3;
         margin-bottom: 20px;
     
     }
     /* parrafo de imagenes */
     .parrafo {
-        color:rgba(7, 7, 7, 0.959);
+        color:$web0-parrafo;
         margin-bottom: 50px;
         text-align: justify;
         margin:20px;
         border-radius: 10px;
-        background-color: rgba(247, 244, 239, 0.66); 
+        background-color: $web0-cont-parrafo; 
         padding: 20px;
         font-size: 20px;
         padding-top: 20px;
@@ -35,7 +38,7 @@
         height: 500px;
         margin-top: 40px;
         margin-bottom: 40px;
-        box-shadow: 8px 10px 10px #909090;
+        box-shadow: 8px 10px 10px $web0-img-border;
         transition-duration: 0.3s;   
         &:hover {
             transform: scale(1.1);
@@ -45,6 +48,7 @@
     @media  screen and (max-width: 400px){
         .contenidoweb1{
             padding-top: 200px;
+            text-align: center;
             
         }
         .video {
@@ -53,30 +57,31 @@
         }
         .h3subtitulo {
             font-size: 50px;
-            color: rgb(77, 46, 15);
+            color: $web0-h3;
             margin-bottom: 20px;
             text-align: center;
         }
         .parrafo {
-            color:rgba(7, 7, 7, 0.959);
+            color:$web0-parrafo;
             margin-bottom: 50px;
             text-align: justify;
             margin:20px;
             border-radius: 10px;
-            background-color: rgba(247, 244, 239, 0.66); 
+            background-color: $web0-cont-parrafo; 
             padding: 20px;
             font-size: 15px;
             padding-top: 20px;
             font-family: 'Prompt', sans-serif;
         }
         .imagenweb1 {
-            margin-left: 50px;
-            width: 280px;
+            
+            margin-left: 45px;
+            width: 250px;
             border-radius: 30px;
-            height: 270px;
+            height: 250px;
             margin-top: 30px;
             margin-bottom: 30px;
-            box-shadow: 8px 10px 10px #909090;
+            box-shadow: 8px 10px 10px $web0-img-border;
             transition-duration: 0.3s;   
          }
          .imagenweb1:hover {
@@ -96,17 +101,17 @@
         }
         .h3subtitulo {
             font-size: 50px;
-            color: rgb(77, 46, 15);
+            color: $web0-h3;
             margin-bottom: 20px;
             text-align: center;
         }
         .parrafo {
-            color:rgba(7, 7, 7, 0.959);
+            color:$web0-parrafo;
             margin-bottom: 50px;
             text-align: justify;
             margin:20px;
             border-radius: 10px;
-            background-color: rgba(247, 244, 239, 0.66); 
+            background-color: $web0-cont-parrafo; 
             padding: 20px;
             font-size: 15px;
             padding-top: 20px;
@@ -119,7 +124,7 @@
             height: 400px;
             margin-top: 30px;
             margin-bottom: 30px;
-            box-shadow: 8px 10px 10px #909090;
+            box-shadow: 8px 10px 10px $web0-img-border;
             transition-duration: 0.3s;   
          }
          .imagenweb1:hover {

@@ -1,3 +1,11 @@
+/* variables */
+/* colores header */
+/*  color footer */
+/*  color web inicio */
+/*  color web entradas */
+/* colores web platos principales */
+/* colores web postres */
+/* colores web galeria */
 /* inicio de Navber */
 header {
   position: fixed;
@@ -76,6 +84,14 @@ header .ul-mia li a:hover {
 }
 
 /* fin de Navber */
+/* variables */
+/* colores header */
+/*  color footer */
+/*  color web inicio */
+/*  color web entradas */
+/* colores web platos principales */
+/* colores web postres */
+/* colores web galeria */
 /* Inicio de section pagina Home */
 .contenidoweb1 {
   padding-top: 200px;
@@ -121,6 +137,7 @@ header .ul-mia li a:hover {
 @media screen and (max-width: 400px) {
   .contenidoweb1 .contenidoweb1 {
     padding-top: 200px;
+    text-align: center;
   }
   .contenidoweb1 .video {
     width: 100%;
@@ -145,10 +162,10 @@ header .ul-mia li a:hover {
     font-family: "Prompt", sans-serif;
   }
   .contenidoweb1 .imagenweb1 {
-    margin-left: 50px;
-    width: 280px;
+    margin-left: 45px;
+    width: 250px;
     border-radius: 30px;
-    height: 270px;
+    height: 250px;
     margin-top: 30px;
     margin-bottom: 30px;
     box-shadow: 8px 10px 10px #909090;
@@ -201,12 +218,19 @@ header .ul-mia li a:hover {
 }
 
 /* Fin de section pagina Home */
+/* variables */
+/* colores header */
+/*  color footer */
+/*  color web inicio */
+/*  color web entradas */
+/* colores web platos principales */
+/* colores web postres */
+/* colores web galeria */
 /* inicio footer */
 .contenedorfooter {
   width: 100%;
   margin-top: 20px;
   padding-top: 20px;
-  color: #f2e4e4;
   background-color: rgba(0, 0, 0, 0.872);
 }
 .contenedorfooter .conteiner-columna {
@@ -220,6 +244,7 @@ header .ul-mia li a:hover {
 .contenedorfooter .conteiner-columna .columna-1 h4 {
   font-size: 40px;
   text-decoration: underline;
+  color: #f2e4e4;
 }
 .contenedorfooter .conteiner-columna .columna-1 .fila {
   margin-top: 20px;
@@ -242,6 +267,7 @@ header .ul-mia li a:hover {
 .contenedorfooter .conteiner-columna .columna-2 h4 {
   font-size: 40px;
   text-decoration: underline;
+  color: #f2e4e4;
 }
 .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
   margin-top: 25px;
@@ -255,6 +281,7 @@ header .ul-mia li a:hover {
 .contenedorfooter .conteiner-columna .columna-3 h4 {
   font-size: 40px;
   text-decoration: underline;
+  color: #f2e4e4;
 }
 .contenedorfooter .conteiner-columna .columna-3 .comentario {
   text-align: left;
@@ -274,6 +301,7 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-1 h4 {
     font-size: 20px;
     text-decoration: underline;
+    color: #f2e4e4;
   }
   .contenedorfooter .conteiner-columna .fila label {
     margin-top: 5px;
@@ -287,6 +315,7 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-2 h4 {
     font-size: 20px;
     text-decoration: underline;
+    color: #f2e4e4;
   }
   .contenedorfooter .conteiner-columna .columna-2 {
     width: 100%;
@@ -310,6 +339,7 @@ header .ul-mia li a:hover {
     font-size: 20px;
     text-decoration: underline;
     text-align: center;
+    color: #f2e4e4;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
@@ -320,6 +350,7 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-1 h4 {
     font-size: 20px;
     text-decoration: underline;
+    color: #f2e4e4;
   }
   .contenedorfooter .conteiner-columna .columna-1 .fila label {
     margin-top: 5px;
@@ -340,6 +371,7 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-2 h4 {
     font-size: 20px;
     text-decoration: underline;
+    color: #f2e4e4;
   }
   .contenedorfooter .conteiner-columna .columna-3 {
     width: 100%;
@@ -355,6 +387,7 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-3 h4 {
     font-size: 20px;
     text-decoration: underline;
+    color: #f2e4e4;
   }
 }
 
@@ -377,6 +410,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 .sectionentradas .conteiner-img-p {
   display: flex;
@@ -399,6 +433,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 .sectionentradas .conteiner-img-p-2 {
   display: flex;
@@ -423,6 +458,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 .sectionentradas .conteiner-img-p-3 {
   display: flex;
@@ -446,6 +482,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 .sectionentradas .conteiner-img-p-4 {
   display: flex;
@@ -470,6 +507,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 .sectionentradas .conteiner-img-p-5 {
   display: flex;
@@ -591,7 +629,7 @@ header .ul-mia li a:hover {
   .sectionentradas .conteiner-img-p-3 {
     display: block;
     margin: auto;
-    background-color: rgba(247, 244, 239, 0.994);
+    background-color: #f7f4ef;
     width: 100%;
     border-radius: 10px;
   }
@@ -612,7 +650,7 @@ header .ul-mia li a:hover {
   .sectionentradas .conteiner-img-p-4 {
     display: block;
     margin: auto;
-    background-color: rgba(247, 244, 239, 0.994);
+    background-color: #f7f4ef;
     border-radius: 10px;
   }
   .sectionentradas .conteiner-img-p-4 img {
@@ -633,7 +671,7 @@ header .ul-mia li a:hover {
   .sectionentradas .conteiner-img-p-5 {
     display: block;
     margin: auto;
-    background-color: rgba(247, 244, 239, 0.994);
+    background-color: #f7f4ef;
     width: 100%;
     border-radius: 10px;
   }
@@ -651,6 +689,14 @@ header .ul-mia li a:hover {
 }
 
 /* Fin de Entradas */
+/* variables */
+/* colores header */
+/*  color footer */
+/*  color web inicio */
+/*  color web entradas */
+/* colores web platos principales */
+/* colores web postres */
+/* colores web galeria */
 /* link pagina platos principales */
 .contenidoweb2 {
   padding-top: 200px;
@@ -786,6 +832,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 
 .conteiner-img-p {
@@ -811,6 +858,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 
 .conteiner-img-p-2 {
@@ -838,6 +886,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 
 .conteiner-img-p-3 {
@@ -864,6 +913,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 
 .conteiner-img-p-4 {
@@ -891,6 +941,7 @@ header .ul-mia li a:hover {
   font-size: 50px;
   text-align: center;
   font-family: "Pacifico", cursive;
+  color: #4d2e0f;
 }
 
 .conteiner-img-p-5 {
@@ -902,7 +953,7 @@ header .ul-mia li a:hover {
   font-weight: 600;
   margin-left: 15px;
   border-radius: 10px;
-  background-color: rgba(247, 244, 239, 0.564);
+  background-color: rgba(247, 244, 239, 0.66);
   padding: 15px;
   font-size: 15px;
   font-family: "Prompt", sans-serif;
@@ -920,10 +971,11 @@ header .ul-mia li a:hover {
   }
 
   .sectionpostres img {
-    width: 350px;
-    height: 300px;
+    width: 314px;
+    height: 280px;
     border-radius: 50px;
-    margin-left: 17px;
+    margin-left: 18px;
+    margin-bottom: 10px;
   }
 
   .conteiner-img-p {
@@ -1056,7 +1108,7 @@ header .ul-mia li a:hover {
   .conteiner-img-p-3 {
     display: block;
     margin: auto;
-    background-color: rgba(247, 244, 239, 0.994);
+    background-color: #f7f4ef;
     width: 100%;
     border-radius: 10px;
   }
@@ -1082,7 +1134,7 @@ header .ul-mia li a:hover {
   .conteiner-img-p-4 {
     display: block;
     margin: auto;
-    background-color: rgba(247, 244, 239, 0.994);
+    background-color: #f7f4ef;
     width: 100%;
     border-radius: 10px;
   }
@@ -1108,7 +1160,7 @@ header .ul-mia li a:hover {
   .conteiner-img-p-5 {
     display: block;
     margin: auto;
-    background-color: rgba(247, 244, 239, 0.994);
+    background-color: #f7f4ef;
     width: 100%;
     border-radius: 10px;
   }

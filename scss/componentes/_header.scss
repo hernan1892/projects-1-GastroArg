@@ -1,23 +1,26 @@
+/* variables */
+@import "../bases/variables";
+
 /* inicio de Navber */
 header{
     position: fixed;
     z-index:1000;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.77);
+    background-color: $header-conteiner;
 
     .titulo h1{
         font-family: 'Pacifico', cursive;
-        color: burlywood;
+        color: $header-titulo;
         padding-top: 10px;
     }
     .logo h2{
         font-weight:bold;
-        color: linen;
+        color: $header-logo;
         letter-spacing: 10px;
         padding-right: 20px;
         transition: all 1s;
     }
-    .mi-button{
+       .mi-button{
         color:linen;
        
     }
@@ -28,7 +31,7 @@ header{
     .ul-mia li a {
         width: max-content;     
         font-size: 25px;
-        color: linen;
+        color: $header-navbar;
 
         &:hover{
             background-color: rgba(215, 198, 198, 0.311);
@@ -43,12 +46,12 @@ header{
             position: fixed;
             z-index:1000;
             width: 100%;
-            background-color: rgba(0, 0, 0, 0.77);
+            background-color: $header-conteiner;
           
         }
         .titulo h1{
             font-family: 'Pacifico', cursive;
-            color: burlywood;
+            color: $header-titulo;
             padding-top: 10px;
         }
         .ul-mia{
@@ -65,7 +68,7 @@ header{
         
         .ul-mia li a {
             font-size: 20px;
-            color: linen;
+            color:$header-navbar;
         }
         .ul-mia a:hover{
             background-color: rgba(215, 198, 198, 0.311);
@@ -75,7 +78,7 @@ header{
         }
         .logo h2{
             font-weight:bold;
-            color: linen;
+            color: $header-logo;
             letter-spacing: 5px;
             padding-right: 20px;
             font-size: 15px;

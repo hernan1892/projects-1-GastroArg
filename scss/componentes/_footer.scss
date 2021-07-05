@@ -1,4 +1,6 @@
 
+/* variables */
+@import "../bases/variables";
  /* inicio footer */
 
  
@@ -6,8 +8,7 @@
     width: 100%;
     margin-top: 20px;
     padding-top: 20px;
-    color: rgb(242, 228, 228);
-    background-color: rgba(0, 0, 0, 0.872);
+    background-color:  $footer-conteiner;
 
     
 
@@ -21,7 +22,8 @@
 
         h4 {
          font-size: 40px;
-         text-decoration: underline;               
+         text-decoration: underline;
+         color: $footer-h4;               
         }
         .fila{
           margin-top:20px ;
@@ -35,7 +37,7 @@
           label {
             margin-top: 10px;
             margin-left: 10px;
-            color: rgb(245, 212, 212);                 
+            color: $footer-lebel;                 
           }               
         }              
             
@@ -47,10 +49,11 @@
         h4{
          font-size: 40px;
          text-decoration: underline;
+         color: $footer-h4;
         }
         .fila2 p{
          margin-top: 25px;
-         color: rgb(245, 212, 212);
+         color: $footer-lebel;
          font-size: 25px;
         }
                
@@ -62,13 +65,14 @@
         h4{
           font-size: 40px;
           text-decoration: underline;
+          color: $footer-h4;
         }
                 
         .comentario {
           text-align: left;
           margin-top: 20px;
           margin-left: 30px;
-          color:  rgb(245, 212, 212);
+          color:  $footer-lebel;
         }
       }
     }  
@@ -85,11 +89,12 @@
        .columna-1 h4 {
         font-size: 20px;
         text-decoration: underline;
+        color: $footer-h4;
        }
        .fila label {
          margin-top: 5px;
          margin-left: 5px;
-         color: rgb(245, 212, 212);      
+         color: $footer-lebel;      
        }
        .fila img{
         width: 20px;
@@ -98,6 +103,7 @@
        .columna-2 h4{
         font-size: 20px;
         text-decoration: underline;
+        color: $footer-h4;
        }
     
        .columna-2{
@@ -106,7 +112,7 @@
         margin-top: 20px;
         .fila2 p{
           margin-top: 0px;
-          color: rgb(245, 212, 212);
+          color: $footer-lebel;
           font-size: 20px;
          }
        }
@@ -116,7 +122,7 @@
         .comentario {
           text-align: center;
           
-          color:  rgb(245, 212, 212);
+          color:  $footer-lebel;
          }
         
        }
@@ -124,6 +130,7 @@
         font-size: 20px;
         text-decoration: underline;
         text-align: center;
+        color: $footer-h4;
        }    
        
      }
@@ -140,12 +147,12 @@
          h4 {
           font-size:20px;
           text-decoration: underline;
-  
+          color: $footer-h4;
         }
         .fila label {
           margin-top: 5px;
           margin-left: 5px;
-          color: rgb(245, 212, 212); 
+          color: $footer-lebel; 
           font-size: 12px;     
         }
         .fila img{
@@ -166,6 +173,7 @@
      .columna-2 h4 {
          font-size: 20px;
          text-decoration: underline;
+         color: $footer-h4;
      }
    
      .columna-3{
@@ -180,12 +188,13 @@
           margin-top: 20px;
           margin-left: 30px;
           font-size: 10px;
-          color:  rgb(245, 212, 212);
+          color:  $footer-lebel;
         }
       }
      .columna-3 h4 {
          font-size: 20px;
          text-decoration: underline;
+         color: $footer-h4;
      }
           
    }

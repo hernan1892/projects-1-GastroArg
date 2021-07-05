@@ -18,6 +18,7 @@
           font-size: 50px;
           text-align: center;
           font-family: 'Pacifico', cursive;
+          color:$web1-h2;
         }
     }
 
@@ -29,7 +30,7 @@
     .parrafoentradas1{
         font-weight: 600;
         border-radius: 10px;
-        background-color:rgba(247, 244, 239, 0.66); 
+        background-color:$web1-cont-parrafo; 
         padding: 10px;
         font-size: 15px;
         margin-left: 15px;
@@ -44,6 +45,7 @@
             font-size: 50px;
             text-align: center;
             font-family: 'Pacifico', cursive; ;
+            color: $web1-h2;
         }
     }
 
@@ -57,7 +59,7 @@
     .parrafoentradas2{
         font-weight: 600;
         border-radius: 10px;
-        background-color:rgba(247, 244, 239, 0.66); 
+        background-color:$web1-cont-parrafo; 
         padding: 10px;
         font-size: 15px;
         margin-right: 15px;
@@ -72,6 +74,7 @@
             font-size: 50px;
             text-align: center;
             font-family: 'Pacifico', cursive;
+            color: $web1-h2;
          }
     }
 
@@ -83,7 +86,7 @@
     .parrafoentradas3{
         font-weight: 600;
         border-radius: 10px;
-        background-color: rgba(247, 244, 239, 0.66) ;
+        background-color: $web1-cont-parrafo ;
         padding: 10px;
         font-size: 15px;
         margin-left: 15px;
@@ -98,6 +101,7 @@
             font-size: 50px;
             text-align: center;
             font-family: 'Pacifico', cursive;
+            color: $web1-h2;
         }
     }
 
@@ -111,7 +115,7 @@
     .parrafoentradas4{
         font-weight: 600;
         border-radius: 10px;
-        background-color: rgba(247, 244, 239, 0.66) ;
+        background-color: $web1-cont-parrafo ;
         padding: 10px;
         font-size: 15px;
         margin-right: 15px;
@@ -127,6 +131,7 @@
             font-size: 50px;
             text-align: center;
             font-family: 'Pacifico', cursive;
+            color: $web1-h2;
         }
     }
 
@@ -139,7 +144,7 @@
     .parrafoentradas5{
         font-weight: 600;
         border-radius: 10px;
-        background-color: rgba(247, 244, 239, 0.66) ;
+        background-color: $web1-cont-parrafo ;
         padding: 10px;
         font-size: 15px;
         margin-left: 15px;
@@ -229,7 +234,7 @@
         display: block;  
         width: 100%; 
         border-radius: 10px;
-        background-color:rgb(247, 244, 239);    
+        background-color:$web1-cont-pi;    
     }
     .conteiner-img-p img {
         float: left;
@@ -251,7 +256,7 @@
         display: block; 
         width: 100%; 
         border-radius: 10px;
-        background-color:rgb(247, 244, 239);
+        background-color:$web1-cont-pi;
     }
     .conteiner-img-p-2 img {
         float: left;
@@ -272,7 +277,7 @@
      .conteiner-img-p-3{
         display: block;
         margin: auto;
-        background-color:rgba(247, 244, 239, 0.994); 
+        background-color:$web1-cont-pi; 
         width: 100%;
         border-radius: 10px;
     }
@@ -296,7 +301,7 @@
     .conteiner-img-p-4 {
         display: block;
         margin: auto;
-        background-color:rgba(247, 244, 239, 0.994); 
+        background-color:$web1-cont-pi; 
         
         border-radius: 10px;
     }
@@ -319,7 +324,7 @@
      .conteiner-img-p-5{
         display: block;
         margin: auto;
-        background-color:rgba(247, 244, 239, 0.994); 
+        background-color:$web1-cont-pi; 
         width: 100%;
         border-radius: 10px;
     }
