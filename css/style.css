@@ -16,14 +16,15 @@ header {
 header .titulo h1 {
   font-family: "Pacifico", cursive;
   color: burlywood;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 header .logo h2 {
   font-weight: bold;
   color: linen;
   letter-spacing: 10px;
   padding-right: 20px;
-  transition: all 1s;
+  padding-top: 10px;
+  font-size: 40px;
 }
 header .mi-button {
   color: linen;
@@ -33,7 +34,7 @@ header .ul-mia {
 }
 header .ul-mia li a {
   width: max-content;
-  font-size: 25px;
+  font-size: 20px;
   color: linen;
 }
 header .ul-mia li a:hover {
@@ -41,6 +42,27 @@ header .ul-mia li a:hover {
   border-radius: 10px;
   color: linen;
   transition: 1s;
+}
+@media screen and (max-width: 400px) {
+  header .titulo h1 {
+    font-family: "Pacifico", cursive;
+    color: burlywood;
+    padding-top: 10px;
+  }
+  header .logo h2 {
+    font-weight: bold;
+    color: linen;
+    letter-spacing: 5px;
+    font-size: 23px;
+  }
+  header .ul-mia {
+    width: max-content;
+    float: left;
+  }
+  header .ul-mia li a {
+    font-size: 10px;
+    color: linen;
+  }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
   header header {
@@ -52,20 +74,14 @@ header .ul-mia li a:hover {
   header .titulo h1 {
     font-family: "Pacifico", cursive;
     color: burlywood;
-    padding-top: 10px;
+    padding-top: 13px;
   }
   header .ul-mia {
-    margin-left: 0;
     width: max-content;
-  }
-  header .navbar {
-    display: block;
-  }
-  header .conteiner-columna {
-    display: block;
+    float: left;
   }
   header .ul-mia li a {
-    font-size: 20px;
+    font-size: 15px;
     color: linen;
   }
   header .ul-mia a:hover {
@@ -78,9 +94,14 @@ header .ul-mia li a:hover {
     font-weight: bold;
     color: linen;
     letter-spacing: 5px;
-    padding-right: 20px;
+    padding-top: 15px;
     font-size: 15px;
+    height: 40px;
   }
+}
+
+.navbar-white {
+  color: white;
 }
 
 /* fin de Navber */
@@ -242,7 +263,7 @@ header .ul-mia li a:hover {
   text-align: center;
 }
 .contenedorfooter .conteiner-columna .columna-1 h4 {
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: underline;
   color: #f2e4e4;
 }
@@ -252,11 +273,10 @@ header .ul-mia li a:hover {
   justify-content: center;
 }
 .contenedorfooter .conteiner-columna .columna-1 .fila img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 .contenedorfooter .conteiner-columna .columna-1 .fila label {
-  margin-top: 10px;
   margin-left: 10px;
   color: #f5d4d4;
 }
@@ -265,28 +285,27 @@ header .ul-mia li a:hover {
   text-align: center;
 }
 .contenedorfooter .conteiner-columna .columna-2 h4 {
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: underline;
   color: #f2e4e4;
 }
 .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
   margin-top: 25px;
   color: #f5d4d4;
-  font-size: 25px;
+  font-size: 20px;
 }
 .contenedorfooter .conteiner-columna .columna-3 {
   width: 100%;
   text-align: center;
 }
 .contenedorfooter .conteiner-columna .columna-3 h4 {
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: underline;
   color: #f2e4e4;
 }
 .contenedorfooter .conteiner-columna .columna-3 .comentario {
-  text-align: left;
+  text-align: center;
   margin-top: 20px;
-  margin-left: 30px;
   color: #f5d4d4;
 }
 @media screen and (max-width: 400px) {

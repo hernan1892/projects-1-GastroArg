@@ -11,14 +11,17 @@ header{
     .titulo h1{
         font-family: 'Pacifico', cursive;
         color: $header-titulo;
-        padding-top: 10px;
+        padding-top: 5px;
     }
+    
     .logo h2{
         font-weight:bold;
         color: $header-logo;
         letter-spacing: 10px;
         padding-right: 20px;
-        transition: all 1s;
+         padding-top: 10px;
+        font-size: 40px;
+       
     }
        .mi-button{
         color:linen;
@@ -30,7 +33,7 @@ header{
     }
     .ul-mia li a {
         width: max-content;     
-        font-size: 25px;
+        font-size: 20px;
         color: $header-navbar;
 
         &:hover{
@@ -40,34 +43,51 @@ header{
             transition: 1s;
         }
     }
-    
+    @media  screen and (max-width: 400px) {
+        .titulo h1{
+            font-family: 'Pacifico', cursive;
+            color: $header-titulo;
+            padding-top: 10px;
+        }
+        .logo h2{
+            font-weight:bold;
+            color: $header-logo;
+            letter-spacing: 5px;
+            font-size: 23px;
+           
+        }
+        .ul-mia{
+            width: max-content;
+            float:left;     
+        }
+        .ul-mia li a {
+            font-size: 10px;
+            color:$header-navbar;
+        }
+    }
     @media  screen and (min-width: 401px) and (max-width:960px){
         header{
             position: fixed;
             z-index:1000;
             width: 100%;
             background-color: $header-conteiner;
+            
+
           
         }
         .titulo h1{
             font-family: 'Pacifico', cursive;
             color: $header-titulo;
-            padding-top: 10px;
+            padding-top: 13px;
         }
         .ul-mia{
-            margin-left:0;
             width: max-content;
-            
+            float:left;
         }
-        .navbar{
-            display:block;
-        }
-        .conteiner-columna{
-            display: block;
-        }
+      
         
         .ul-mia li a {
-            font-size: 20px;
+            font-size: 15px;
             color:$header-navbar;
         }
         .ul-mia a:hover{
@@ -80,15 +100,16 @@ header{
             font-weight:bold;
             color: $header-logo;
             letter-spacing: 5px;
-            padding-right: 20px;
+            padding-top: 15px;
             font-size: 15px;
+            height: 40px;
            
         }
-       
-    
-    
     
     }
+}
+.navbar-white{
+   color:  white;
 }
 
 /* fin de Navber */

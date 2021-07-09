@@ -21,7 +21,7 @@
         text-align: center;  
 
         h4 {
-         font-size: 40px;
+         font-size: 30px;
          text-decoration: underline;
          color: $footer-h4;               
         }
@@ -31,11 +31,10 @@
           justify-content: center;
     
           img{
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
           }
           label {
-            margin-top: 10px;
             margin-left: 10px;
             color: $footer-lebel;                 
           }               
@@ -47,14 +46,14 @@
         text-align: center;
 
         h4{
-         font-size: 40px;
+         font-size: 30px;
          text-decoration: underline;
          color: $footer-h4;
         }
         .fila2 p{
          margin-top: 25px;
          color: $footer-lebel;
-         font-size: 25px;
+         font-size: 20px;
         }
                
       }
@@ -63,15 +62,15 @@
         text-align: center;
 
         h4{
-          font-size: 40px;
+          font-size:30px;
           text-decoration: underline;
           color: $footer-h4;
         }
                 
         .comentario {
-          text-align: left;
+          text-align: center;
           margin-top: 20px;
-          margin-left: 30px;
+         
           color:  $footer-lebel;
         }
       }
