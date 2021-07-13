@@ -82,9 +82,7 @@
 
     
        .columna-1 h4 {
-        font-size: 20px;
-       /*  text-decoration: underline; */
-        color: $footer-h4;
+        font-size: 20px;           
         padding-bottom: 10px;
        }
        .cont-fila {
@@ -94,15 +92,12 @@
        .fila label {
          display: none;
        }
-       .fila img{
-    
+       .fila img{   
         width: 20px;
         height: 20px;
        }
        .columna-2 h4{
-        font-size: 20px;
-       /*  text-decoration: underline; */
-        color: $footer-h4;
+        font-size: 20px;      
        }
     
        .columna-2{
@@ -126,32 +121,23 @@
         
        }
        .columna-3 h4{
-        font-size: 20px;
-       /*  text-decoration: underline; */
-        text-align: center;
-        color: $footer-h4;
-       }    
-       
-     }
-              
+        font-size: 20px;     
+        text-align: center       
+       }          
+     }             
    }   
    @media  screen and (min-width: 401px) and (max-width:960px){
      
     .conteiner-columna {
       
-     .columna-1{
-         width: 100%;
-         padding-bottom: 20px;
+     .columna-1{     
 
          h4 {
           font-size:20px;
-          text-decoration: underline;
-          color: $footer-h4;
         }
         .fila label {
           margin-top: 5px;
           margin-left: 5px;
-          color: $footer-lebel; 
           font-size: 12px;     
         }
         .fila img{
@@ -162,7 +148,7 @@
      }
      
      .columna-2{
-         width: 100%;
+        
          .fila2 p{
           font-size: 12px;
           
@@ -171,29 +157,16 @@
      }
      .columna-2 h4 {
          font-size: 20px;
-         text-decoration: underline;
-         color: $footer-h4;
-     }
-   
+     }  
      .columna-3{
-         width: 100%; 
-         text-align: center;
                
-          
-       
-     
         .comentario {
-          text-align: center;
-          margin-top: 20px;
-          margin-left: 30px;
-          font-size: 10px;
-          color:  $footer-lebel;
+          text-align: center;       
+          font-size: 10px;         
         }
       }
      .columna-3 h4 {
          font-size: 20px;
-         text-decoration: underline;
-         color: $footer-h4;
      }
           
    }

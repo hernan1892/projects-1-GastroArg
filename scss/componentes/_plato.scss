@@ -5,14 +5,18 @@
 .contenidoweb2{
     padding-top: 200px;
 
+    .cont-i-t-p{
+        text-align: center;
+
+    }
+
     .imagenweb2 {
-        margin-left: 115px;
-        width: 700px;
+        margin: 40px 40px;
+        width: 80%;
         border-radius: 50px;
         height: 500px;
-        margin-top: 40px;
-        margin-bottom: 40px;
         box-shadow: 8px 10px 10px $web2-img-border;
+        object-fit: cover;
         transition-duration: 0.3s;   
 
         &:hover {
@@ -20,6 +24,7 @@
         }
     }
     .h3subtitulo {
+        font-family: 'Pacifico', cursive;
         font-size: 50px;
         color: $web2-h3;
         margin-bottom: 20px;
@@ -38,92 +43,41 @@
         padding-top: 20px;
         font-family: 'Prompt', sans-serif;
     }
-    
-    @media  screen and (max-width: 400px){
-        .contenidoweb2{
-            padding-top: 200px;
-            
-        }
-        .video {
-            width: 100%;
-            height: 370px;
-        }
-        .h3subtituloweb2 {
-            font-size: 50px;
-            color: $web2-h3;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .parrafoweb2 {
-            color:$web2-parrafo;
-            margin-bottom: 50px;
-            text-align: justify;
-            margin:20px;
-            border-radius: 10px;
-            background-color: $web2_cont-parrafo; 
-            padding: 20px;
-            font-size: 15px;
-            padding-top: 20px;
-            font-family: 'Prompt', sans-serif;
-        }
-        .imagenweb2 {
-            margin-left: 50px;
-            width: 280px;
-            border-radius: 30px;
-            height: 270px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            box-shadow: 8px 10px 10px $web2-img-border;
-            transition-duration: 0.3s;   
-         }
-         .imagenweb2:hover {
-              transform: scale(1.1);
-         }
-       
-    }
-    @media  screen and (min-width: 401px) and (max-width:960px){
-        .contenidoweb2{
-            padding-top: 200px;
-            
-        }
-        .video {
-            width: 100%;
-            height: 500px;
-            margin:auto;
-        }
-        .h3subtituloweb2 {
-            font-size: 50px;
-            color: $web2-h3;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .parrafoweb2 {
-            color:$web2-parrafo;
-            margin-bottom: 50px;
-            text-align: justify;
-            margin:20px;
-            border-radius: 10px;
-            background-color: $web2_cont-parrafo; 
-            padding: 20px;
-            font-size: 15px;
-            padding-top: 20px;
-            font-family: 'Prompt', sans-serif;
-        }
-        .imagenweb2 {
-            margin-left: 50px;
-            width: 80%;
-            border-radius: 30px;
-            height: 400px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            box-shadow: 8px 10px 10px $web2-img-border;
-            transition-duration: 0.3s;   
-         }
-         .imagenweb2:hover {
-              transform: scale(1.1);
-         }
-        
-    }
    
+   
+}
+@media  screen and (max-width: 400px){
+    .contenidoweb2{
+       padding-top: 100px;
+
+       .imagenweb2 {       
+        width: 250px;
+        border-radius: 30px;
+        height: 250px;      
+        box-shadow: 8px 10px 10px $web2-img-border;
+        transition-duration: 0.3s;   
+     }
+     .parrafo {
+        font-size: 15px;
+        padding-top: 15px;     
+    }
+               
+    }
+
+  
+}
+@media  screen and (min-width: 401px) and (max-width:960px){
+    .contenidoweb2{
+        padding-top: 150px;
+
+        .imagenweb2 {          
+            border-radius: 30px;
+            height: 350px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            box-shadow: 8px 10px 10px $web2-img-border;
+          
+        }            
+    } 
 }
 /* Fin de Plato princiapl */

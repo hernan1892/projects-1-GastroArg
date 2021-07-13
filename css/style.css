@@ -315,8 +315,6 @@ header .ul-mia li a:hover {
   }
   .contenedorfooter .conteiner-columna .columna-1 h4 {
     font-size: 20px;
-    /*  text-decoration: underline; */
-    color: #f2e4e4;
     padding-bottom: 10px;
   }
   .contenedorfooter .conteiner-columna .cont-fila {
@@ -332,8 +330,6 @@ header .ul-mia li a:hover {
   }
   .contenedorfooter .conteiner-columna .columna-2 h4 {
     font-size: 20px;
-    /*  text-decoration: underline; */
-    color: #f2e4e4;
   }
   .contenedorfooter .conteiner-columna .columna-2 {
     width: 100%;
@@ -355,57 +351,34 @@ header .ul-mia li a:hover {
   }
   .contenedorfooter .conteiner-columna .columna-3 h4 {
     font-size: 20px;
-    /*  text-decoration: underline; */
     text-align: center;
-    color: #f2e4e4;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
-  .contenedorfooter .conteiner-columna .columna-1 {
-    width: 100%;
-    padding-bottom: 20px;
-  }
   .contenedorfooter .conteiner-columna .columna-1 h4 {
     font-size: 20px;
-    text-decoration: underline;
-    color: #f2e4e4;
   }
   .contenedorfooter .conteiner-columna .columna-1 .fila label {
     margin-top: 5px;
     margin-left: 5px;
-    color: #f5d4d4;
     font-size: 12px;
   }
   .contenedorfooter .conteiner-columna .columna-1 .fila img {
     width: 17px;
     height: 17px;
   }
-  .contenedorfooter .conteiner-columna .columna-2 {
-    width: 100%;
-  }
   .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
     font-size: 12px;
   }
   .contenedorfooter .conteiner-columna .columna-2 h4 {
     font-size: 20px;
-    text-decoration: underline;
-    color: #f2e4e4;
-  }
-  .contenedorfooter .conteiner-columna .columna-3 {
-    width: 100%;
-    text-align: center;
   }
   .contenedorfooter .conteiner-columna .columna-3 .comentario {
     text-align: center;
-    margin-top: 20px;
-    margin-left: 30px;
     font-size: 10px;
-    color: #f5d4d4;
   }
   .contenedorfooter .conteiner-columna .columna-3 h4 {
     font-size: 20px;
-    text-decoration: underline;
-    color: #f2e4e4;
   }
 }
 
@@ -719,20 +692,23 @@ header .ul-mia li a:hover {
 .contenidoweb2 {
   padding-top: 200px;
 }
+.contenidoweb2 .cont-i-t-p {
+  text-align: center;
+}
 .contenidoweb2 .imagenweb2 {
-  margin-left: 115px;
-  width: 700px;
+  margin: 40px 40px;
+  width: 80%;
   border-radius: 50px;
   height: 500px;
-  margin-top: 40px;
-  margin-bottom: 40px;
   box-shadow: 8px 10px 10px #909090;
+  object-fit: cover;
   transition-duration: 0.3s;
 }
 .contenidoweb2 .imagenweb2:hover {
   transform: scale(1.1);
 }
 .contenidoweb2 .h3subtitulo {
+  font-family: "Pacifico", cursive;
   font-size: 50px;
   color: #4d2e0f;
   margin-bottom: 20px;
@@ -749,88 +725,35 @@ header .ul-mia li a:hover {
   padding-top: 20px;
   font-family: "Prompt", sans-serif;
 }
+
 @media screen and (max-width: 400px) {
-  .contenidoweb2 .contenidoweb2 {
-    padding-top: 200px;
-  }
-  .contenidoweb2 .video {
-    width: 100%;
-    height: 370px;
-  }
-  .contenidoweb2 .h3subtituloweb2 {
-    font-size: 50px;
-    color: #4d2e0f;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .contenidoweb2 .parrafoweb2 {
-    color: rgba(7, 7, 7, 0.959);
-    margin-bottom: 50px;
-    text-align: justify;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: rgba(247, 244, 239, 0.66);
-    padding: 20px;
-    font-size: 15px;
-    padding-top: 20px;
-    font-family: "Prompt", sans-serif;
+  .contenidoweb2 {
+    padding-top: 100px;
   }
   .contenidoweb2 .imagenweb2 {
-    margin-left: 50px;
-    width: 280px;
+    width: 250px;
     border-radius: 30px;
-    height: 270px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 250px;
     box-shadow: 8px 10px 10px #909090;
     transition-duration: 0.3s;
   }
-  .contenidoweb2 .imagenweb2:hover {
-    transform: scale(1.1);
+  .contenidoweb2 .parrafo {
+    font-size: 15px;
+    padding-top: 15px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
-  .contenidoweb2 .contenidoweb2 {
-    padding-top: 200px;
-  }
-  .contenidoweb2 .video {
-    width: 100%;
-    height: 500px;
-    margin: auto;
-  }
-  .contenidoweb2 .h3subtituloweb2 {
-    font-size: 50px;
-    color: #4d2e0f;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .contenidoweb2 .parrafoweb2 {
-    color: rgba(7, 7, 7, 0.959);
-    margin-bottom: 50px;
-    text-align: justify;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: rgba(247, 244, 239, 0.66);
-    padding: 20px;
-    font-size: 15px;
-    padding-top: 20px;
-    font-family: "Prompt", sans-serif;
+  .contenidoweb2 {
+    padding-top: 150px;
   }
   .contenidoweb2 .imagenweb2 {
-    margin-left: 50px;
-    width: 80%;
     border-radius: 30px;
-    height: 400px;
+    height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
     box-shadow: 8px 10px 10px #909090;
-    transition-duration: 0.3s;
-  }
-  .contenidoweb2 .imagenweb2:hover {
-    transform: scale(1.1);
   }
 }
-
 /* Fin de Plato princiapl */
 /* Link pagina postres */
 .sectionpostres {
