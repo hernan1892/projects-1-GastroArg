@@ -163,7 +163,7 @@ header .ul-mia li a:hover {
   text-align: center;
 }
 .contenidoweb1 h2 {
-  color: #eb7a2e;
+  color: burlywood;
   font-size: 60px;
   margin-bottom: 10px;
   text-decoration: underline;
@@ -176,6 +176,7 @@ header .ul-mia li a:hover {
   margin: 20px 20px;
   text-align: left;
   padding-left: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*  parrafo de imagenes  */
