@@ -636,10 +636,10 @@ header .ul-mia li a:hover {
   text-align: center;
 }
 .contenidoweb2 .imagenweb2 {
-  margin: 40px 40px;
-  width: 80%;
+  margin: 40px;
+  width: 65%;
   border-radius: 50px;
-  height: 500px;
+  height: 450px;
   box-shadow: 8px 10px 10px #909090;
   object-fit: cover;
   transition-duration: 0.3s;
@@ -648,18 +648,19 @@ header .ul-mia li a:hover {
   transform: scale(1.1);
 }
 .contenidoweb2 .h3subtitulo {
-  font-family: "Pacifico", cursive;
-  font-size: 50px;
-  color: #4d2e0f;
-  margin-bottom: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  color: burlywood;
+  margin: auto;
+  /*   margin-bottom: 20px; */
 }
 .contenidoweb2 .parrafo {
-  color: rgba(7, 7, 7, 0.959);
+  color: rgba(242, 234, 234, 0.959);
   margin-bottom: 50px;
   text-align: justify;
   margin: 20px;
   border-radius: 10px;
-  background-color: rgba(247, 244, 239, 0.66);
+  background-color: rgba(28, 28, 28, 0.66);
   padding: 20px;
   font-size: 20px;
   padding-top: 20px;
@@ -674,12 +675,17 @@ header .ul-mia li a:hover {
     width: 250px;
     border-radius: 30px;
     height: 250px;
-    box-shadow: 8px 10px 10px #909090;
-    transition-duration: 0.3s;
+    margin: 20px;
   }
   .contenidoweb2 .parrafo {
     font-size: 15px;
-    padding-top: 15px;
+    padding-top: 0px;
+  }
+  .contenidoweb2 .h3subtitulo {
+    font-size: 35px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 0px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
@@ -688,10 +694,13 @@ header .ul-mia li a:hover {
   }
   .contenidoweb2 .imagenweb2 {
     border-radius: 30px;
-    height: 350px;
+    height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
-    box-shadow: 8px 10px 10px #909090;
+  }
+  .contenidoweb2 .parrafo {
+    font-size: 15px;
+    padding-top: 0px;
   }
 }
 /* Fin de Plato princiapl */
