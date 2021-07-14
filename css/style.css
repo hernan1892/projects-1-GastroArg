@@ -167,7 +167,7 @@ header .ul-mia li a:hover {
   font-size: 60px;
   margin-bottom: 10px;
   text-decoration: underline;
-  font-family: cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .h3subtitulo {
@@ -310,13 +310,11 @@ header .ul-mia li a:hover {
   .contenidoweb1 h2 {
     font-size: 40px;
     margin-bottom: 10px;
-    text-decoration: underline;
-    font-family: cursive;
   }
 
   .h3subtitulo {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin: auto;
     text-align: left;
   }
 
