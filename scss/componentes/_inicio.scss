@@ -2,139 +2,225 @@
 @import "../bases/variables";
 
 /* Inicio de section pagina Home */
+.container1{  
+    padding-top: 250px;
+    padding-bottom: 100px; 
+}
+.container-web1{
+    display:flex;    
+}
+.container-item{
+    width: 100%;
+    height: 650px;
+    margin: 10px 0px 0px 50px;
 
-.contenidoweb1 {
-    padding-top: 200px;
-    .video {
-        width: 1000px;
-        height: 800px;
-        margin-bottom: 10px;
+}
+.container-titulo-p{
+    height: 100%;
+    width: 100%; 
+    margin: 83.5px 0px;
+    text-align: center;
+
+    h3{
+        margin: auto;       
+        color: rgb(235, 122, 46); 
+        font-family:initial;
+        font-size: 65px;
+        width: 50%;
+        transition: all 3s ease-in-out;
+
+        &:hover{
+          transform: rotatey(360deg);
+         
+        }
+
     }
-    /* subtitulo del video */
-    .h3subtitulo {
+    p{
+        padding-top: 30px;
+        margin: auto;
+        width: 70%;
+        color: white;
+        font-size: 20px;
+    }
+    p::first-letter{
+        font-size: 40px;
+        padding-right: 5px;
+    }
+}
+
+.contenidoweb1{
+    padding-top: 143px;
+    text-align: center;
+
+    h2{
+        color: rgb(235, 122, 46);
+        font-size: 60px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+        font-family: cursive;
+    }
+       
+}    
+    
+     .h3subtitulo {
         font-size: 50px;
         color: $web0-h3;
-        margin-bottom: 20px;
-    
-    }
-    /* parrafo de imagenes */
+        margin: 20px 20px;
+        text-align: left; 
+        padding-left: 20px; 
+    } 
+    /*  parrafo de imagenes  */
     .parrafo {
-        color:$web0-parrafo;
-        margin-bottom: 50px;
-        text-align: justify;
+        color:$web0-parrafo;     
+        text-align: left;
         margin:20px;
-        border-radius: 10px;
-        background-color: $web0-cont-parrafo; 
+        border-radius: 10px;      
         padding: 20px;
-        font-size: 20px;
-        padding-top: 20px;
+        font-size: 20px;      
         font-family: 'Prompt', sans-serif;
-    }
-    /* imagenes inicio */
-    .imagenweb1 {
-        margin-left: 115px;
-        width: 700px;
+    } 
+     .imagenweb1 { 
+        width: 60%;
         border-radius: 50px;
-        height: 500px;
+        height: 400px;
         margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 8px 10px 10px $web0-img-border;
-        transition-duration: 0.3s;   
-        &:hover {
-            transform: scale(1.1);
-       }
     }
 
     @media  screen and (max-width: 400px){
-        .contenidoweb1{
-            padding-top: 200px;
-            text-align: center;
-            
+        .container1{  
+            padding-top: 150px;
+            padding-bottom: 15px;         
         }
-        .video {
-            width: 100%;
-            height: 370px;
+        .container-web1{
+            display:block;                   
         }
-        .h3subtitulo {
-            font-size: 50px;
-            color: $web0-h3;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .parrafo {
-            color:$web0-parrafo;
-            margin-bottom: 50px;
-            text-align: justify;
-            margin:20px;
-            border-radius: 10px;
-            background-color: $web0-cont-parrafo; 
-            padding: 20px;
-            font-size: 15px;
-            padding-top: 20px;
-            font-family: 'Prompt', sans-serif;
-        }
-        .imagenweb1 {
-            
-            margin-left: 45px;
-            width: 250px;
-            border-radius: 30px;
-            height: 250px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            box-shadow: 8px 10px 10px $web0-img-border;
-            transition-duration: 0.3s;   
-         }
-         .imagenweb1:hover {
-              transform: scale(1.1);
-         }
-       
-    }
-    @media  screen and (min-width: 401px) and (max-width:960px){
-        .contenidoweb1{
-            padding-top: 200px;
-            
-        }
-        .video {
-            width: 100%;
-            height: 500px;
+        .container-item{
+            width: 90%;
+            height: 350px;
             margin:auto;
-        }
-        .h3subtitulo {
-            font-size: 50px;
-            color: $web0-h3;
-            margin-bottom: 20px;
             text-align: center;
+
+            .video {
+                width: 90%;
+                height: 350px;
+                margin:auto;
+            }
+     
         }
-        .parrafo {
-            color:$web0-parrafo;
-            margin-bottom: 50px;
-            text-align: justify;
-            margin:20px;
-            border-radius: 10px;
-            background-color: $web0-cont-parrafo; 
-            padding: 20px;
-            font-size: 15px;
-            padding-top: 20px;
-            font-family: 'Prompt', sans-serif;
-        }
-        .imagenweb1 {
-            margin-left: 50px;
-            width: 80%;
-            border-radius: 30px;
-            height: 400px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            box-shadow: 8px 10px 10px $web0-img-border;
-            transition-duration: 0.3s;   
-         }
-         .imagenweb1:hover {
-              transform: scale(1.1);
-         }
+        .container-titulo-p{                            
+            h3{
+                font-size: 35px;
+                width: 60%;        
+            }
+            p{
+                margin: auto;
+                text-align: left;
+                font-size: 20px;
+            }
+            p::first-letter{
+                font-size: 40px;
+                padding-right: 5px;
+            }
+        }      
+        .contenidoweb1{
+            padding-top: 0px;
         
+            h2{
+                font-size: 35px;
+                margin-bottom: 20px;   
+            }             
+        } 
+        .imagenweb1 {      
+            width: 250px;
+            height: 300px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }   
+        .h3subtitulo {
+            font-size: 30px;
+            padding-top: 20px;
+            text-align: left; 
+            padding-left: 35px;
+            margin: 0; 
+        } 
+        .parrafo {
+            text-align: left;             
+            font-size: 20px;
+            padding-top: 10px;
+        } 
+    }
+
+   
+    @media  screen and (min-width: 401px) and (max-width:960px){
+        .container1{  
+            padding-top: 150px;
+            padding-bottom: 30px;         
+        }
+        .container-web1{
+            display:block;                     
+        }
+        .container-item{
+            width: 90%;
+            height: 470px;
+            margin:auto;
+            padding: 0;
+            text-align: center;
+
+            .video {
+                width: 90%;
+                height: 470px;
+                margin:auto;
+            }       
+        }
+        .container-titulo-p{  
+            padding-top: 0px;  
+            margin: 50px 0px;
+
+            h3{
+                font-size: 45px;
+                width: 60%;        
+            }
+            p{
+                margin: auto;
+                text-align: left;
+                font-size: 20px;
+            }
+            p::first-letter{
+                font-size: 40px;
+                padding-right: 5px;
+            }
+        }
+        .contenidoweb1{
+            padding-top: 0px;
+
+            h2{           
+                font-size: 40px;
+                margin-bottom: 10px;
+                text-decoration: underline;
+                font-family: cursive;
+            }
+               
+        }    
+            
+             .h3subtitulo {
+                font-size: 50px;
+                margin-bottom: 20px;
+                text-align: left; 
+             
+            } 
+            .parrafo {            
+                margin:auto;
+                padding: 20px;      
+                   
+            } 
+         
+           
     }
     
 
-    
 
-}
+
+
 /* Fin de section pagina Home */
