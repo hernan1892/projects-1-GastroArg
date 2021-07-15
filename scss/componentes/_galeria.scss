@@ -1,15 +1,13 @@
-/* Inicio de galeria */
 
-.header-galeria {
-    margin-top: -170px;
+/* Inicio de galeria */
+.carousel{
+    padding-top: 180px;
 }
 .carousel-inner{
-    margin-top: 170px;
-
-
+   
     img{
-      width: 100vh;
-      height: 85vh;
+   
+      height: 80vh;
  }
 }
 .carousel-caption h5{
@@ -117,6 +115,6 @@
       grid-row: span 1;
   }
   
-   }
-/* Fin de Galeria */
+ }
+ 
 /* Fin de Galeria */

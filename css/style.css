@@ -857,16 +857,12 @@ header .ul-mia li a:hover {
 }
 /* Fin de Postres */
 /* Inicio de galeria */
-.header-galeria {
-  margin-top: -170px;
+.carousel {
+  padding-top: 180px;
 }
 
-.carousel-inner {
-  margin-top: 170px;
-}
 .carousel-inner img {
-  width: 100vh;
-  height: 85vh;
+  height: 80vh;
 }
 
 .carousel-caption h5 {
@@ -959,7 +955,6 @@ header .ul-mia li a:hover {
     grid-row: span 1;
   }
 }
-/* Fin de Galeria */
 /* Fin de Galeria */
 /* fonde de la pagina */
 body {
