@@ -370,6 +370,7 @@ header .ul-mia li a:hover {
 .contenedorfooter .conteiner-columna .columna-1 .fila img {
   width: 30px;
   height: 30px;
+  border-radius: 100%;
 }
 .contenedorfooter .conteiner-columna .columna-1 .fila label {
   margin-left: 10px;
