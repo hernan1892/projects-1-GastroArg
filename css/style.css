@@ -933,13 +933,10 @@ header .ul-mia li a:hover {
 }
 
 @media screen and (max-width: 400px) {
-  .header-galeria {
-    margin-top: -120px;
+  .carousel {
+    padding-top: 150px;
   }
 
-  .carousel-inner {
-    margin-top: 120px;
-  }
   .carousel-inner img {
     height: 65vh;
   }
