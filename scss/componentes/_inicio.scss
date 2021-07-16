@@ -11,22 +11,25 @@
 }
 .container-item{
     width: 100%;
-    height: 650px;
-    margin: 10px 0px 0px 50px;
+    margin-left: 50px;
 
 }
+.video{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
 .container-titulo-p{
-    height: 100%;
     width: 100%; 
-    margin: 83.5px 0px;
-    text-align: center;
+    margin: auto;
+   
 
     h3{
-        margin: auto;       
+        text-align: center;      
         color: burlywood;; 
         font-family:initial;
         font-size: 65px;
-        width: 50%;
+        width: 100%;
         transition: all 3s ease-in-out;
 
         &:hover{
@@ -36,7 +39,7 @@
 
     }
     p{
-        padding-top: 30px;
+      
         margin: auto;
         width: 70%;
         color: white;
@@ -92,7 +95,7 @@
 
     @media  screen and (max-width: 400px){
         .container1{  
-            padding-top: 150px;
+            padding-top: 120px;
             padding-bottom: 15px;         
         }
         .container-web1{
@@ -100,19 +103,22 @@
         }
         .container-item{
             width: 90%;
-            height: 350px;
+            height: 200px;
             margin:auto;
             text-align: center;
 
             .video {
                 width: 90%;
-                height: 350px;
+                height: 200px;
                 margin:auto;
             }
      
         }
-        .container-titulo-p{                            
+        .container-titulo-p{   
+            margin: 20px 0px;      
+            height: auto;                   
             h3{
+                margin: auto;
                 font-size: 35px;
                 width: 60%;        
             }
@@ -136,7 +142,7 @@
         } 
         .imagenweb1 {      
             width: 250px;
-            height: 300px;
+            height: 250px;
             margin-top: 20px;
             margin-bottom: 10px;
         }   
@@ -164,23 +170,23 @@
             display:block;                     
         }
         .container-item{
-            width: 90%;
-            height: 470px;
-            margin:auto;
+            width: auto;
+            margin:0px 30px;
             padding: 0;
             text-align: center;
 
-            .video {
-                width: 90%;
-                height: 470px;
+        .video {
+                width: 100%;
+                height: auto;
                 margin:auto;
-            }       
+            }
         }
         .container-titulo-p{  
             padding-top: 0px;  
             margin: 50px 0px;
 
             h3{
+                margin: auto;
                 font-size: 45px;
                 width: 60%;        
             }
