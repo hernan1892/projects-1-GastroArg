@@ -137,13 +137,15 @@ header .ul-mia li a:hover {
 .container-titulo-p {
   width: 100%;
   margin: auto;
+  text-align: center;
 }
 .container-titulo-p h3 {
+  margin: auto;
   text-align: center;
   color: burlywood;
   font-family: initial;
-  font-size: 65px;
-  width: 100%;
+  font-size: 55px;
+  width: 50%;
   transition: all 3s ease-in-out;
 }
 .container-titulo-p h3:hover {
@@ -153,7 +155,7 @@ header .ul-mia li a:hover {
   margin: auto;
   width: 70%;
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 .container-titulo-p p::first-letter {
   font-size: 40px;
