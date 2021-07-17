@@ -417,20 +417,25 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-1 h4 {
     font-size: 20px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
   }
   .contenedorfooter .conteiner-columna .cont-fila {
     display: flex;
-    justify-content: space-around;
+    /* justify-content:; */
   }
   .contenedorfooter .conteiner-columna .fila label {
     display: none;
   }
   .contenedorfooter .conteiner-columna .fila img {
-    width: 20px;
-    height: 20px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
   }
   .contenedorfooter .conteiner-columna .columna-2 h4 {
     font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
   }
   .contenedorfooter .conteiner-columna .columna-2 {
     width: 100%;
@@ -440,19 +445,23 @@ header .ul-mia li a:hover {
   .contenedorfooter .conteiner-columna .columna-2 .fila2 p {
     margin: 2px 0px 10px 0px;
     color: #f5d4d4;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
   }
   .contenedorfooter .conteiner-columna .columna-3 {
     width: 100%;
   }
   .contenedorfooter .conteiner-columna .columna-3 .comentario {
-    text-align: center;
+    padding-left: 10px;
+    text-align: left;
     color: #f5d4d4;
     font-size: 12px;
   }
   .contenedorfooter .conteiner-columna .columna-3 h4 {
+    padding-left: 10px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
