@@ -25,17 +25,20 @@ header .logo h2 {
   padding-right: 20px;
   padding-top: 10px;
   font-size: 40px;
+  margin: 0;
 }
 header .mi-button {
   color: linen;
 }
 header .ul-mia {
+  padding-top: 15PX;
   margin-left: auto;
 }
 header .ul-mia li a {
   width: max-content;
-  font-size: 20px;
+  font-size: 19px;
   color: linen;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 header .ul-mia li a:hover {
   background-color: rgba(215, 198, 198, 0.311);
@@ -60,7 +63,7 @@ header .ul-mia li a:hover {
     float: left;
   }
   header .ul-mia li a {
-    font-size: 10px;
+    font-size: 15px;
     color: linen;
   }
 }
@@ -254,8 +257,8 @@ header .ul-mia li a:hover {
 
   .imagenweb1 {
     width: 250px;
-    height: 250px;
-    margin-top: 20px;
+    height: 200px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
@@ -269,8 +272,10 @@ header .ul-mia li a:hover {
 
   .parrafo {
     text-align: left;
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 15px;
+    margin: 0px 10px;
+    padding: 10px 25px;
+    /*  padding-top: 10px; */
   }
 }
 @media screen and (min-width: 401px) and (max-width: 960px) {
@@ -544,8 +549,8 @@ header .ul-mia li a:hover {
   }
 
   .sectionentradas img {
-    width: 300px;
-    height: 260px;
+    width: 250px;
+    height: 200px;
     border-radius: 50px;
     margin-bottom: 10px;
   }
@@ -574,7 +579,7 @@ header .ul-mia li a:hover {
   }
 
   .containerentrada h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
   }
@@ -684,7 +689,7 @@ header .ul-mia li a:hover {
   .contenidoweb2 .imagenweb2 {
     width: 250px;
     border-radius: 30px;
-    height: 250px;
+    height: 200px;
     margin: 20px;
   }
   .contenidoweb2 .parrafo {
@@ -780,8 +785,8 @@ header .ul-mia li a:hover {
   }
 
   .sectionpostres img {
-    width: 300px;
-    height: 260px;
+    width: 250px;
+    height: 200px;
     border-radius: 50px;
     margin-bottom: 10px;
   }
@@ -809,7 +814,7 @@ header .ul-mia li a:hover {
   }
 
   .conteinerpostre h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
   }
 }
@@ -934,11 +939,11 @@ header .ul-mia li a:hover {
 
 @media screen and (max-width: 400px) {
   .carousel {
-    padding-top: 150px;
+    padding-top: 130px;
   }
 
   .carousel-inner img {
-    height: 65vh;
+    height: 55vh;
   }
 
   .titulo h2 {
