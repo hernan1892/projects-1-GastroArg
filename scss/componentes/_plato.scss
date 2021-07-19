@@ -16,20 +16,12 @@
         height: 450px;
         box-shadow: 8px 10px 10px $web2-img-border;
         object-fit: cover;
-        transition-duration: 0.3s;   
-
-        &:hover {
-            transform: scale(1.1);
-        }
     }
     .h3subtitulo {
         font-family:Georgia, 'Times New Roman', Times, serif;
-        font-size: 60px;
+        font-size: 50px;
         color: $web2-h3;
-        margin: auto;
-      /*   margin-bottom: 20px; */
-        
-    
+        margin: auto;  
     }
     .parrafo {
         color:$web2-parrafo;
@@ -37,13 +29,11 @@
         text-align: justify;
         margin:20px;
         border-radius: 10px;
-        background-color: $web2_cont-parrafo; 
         padding: 20px;
         font-size: 20px;
         padding-top: 20px;
         font-family: 'Prompt', sans-serif;
     }
-   
    
 }
 @media  screen and (max-width: 400px){

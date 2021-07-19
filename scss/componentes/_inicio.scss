@@ -44,7 +44,7 @@
       
         margin: auto;
         width: 70%;
-        color: white;
+        color: $web0-parrafo ;
         font-size: 17px;
     }
     p::first-letter{
@@ -58,7 +58,7 @@
     text-align: center;
 
     h2{
-        color: burlywood;
+        color: $web0-h2;
         font-size: 60px;
         margin-bottom: 10px;
         text-decoration: underline;
@@ -160,7 +160,6 @@
             font-size: 15px;
             margin: 0px 10px;
             padding: 10px 25px;
-           /*  padding-top: 10px; */
         } 
     }
 
