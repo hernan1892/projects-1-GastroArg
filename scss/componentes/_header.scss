@@ -9,7 +9,7 @@ header{
     background-color: $header-conteiner;
 
     .titulo h1{
-        font-family: 'Pacifico', cursive;
+        font-family:$font-titulos;
         color: $header-titulo;
         padding-top: 5px;
     }
@@ -28,14 +28,14 @@ header{
        
     }
      .ul-mia{ 
-         padding-top: 15PX;      
+        padding-top: 15PX;      
         margin-left: auto;
     }
     .ul-mia li a {
         width: max-content;     
-        font-size: 19px;
+        font-size: 17px;
         color: $header-navbar;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:$font-navbar;
 
         &:hover{
             background-color: rgba(215, 198, 198, 0.311);
@@ -44,6 +44,7 @@ header{
             transition: 1s;
         }
     }
+    /* Medias Query Mobil */
     @media  screen and (max-width: 400px) {
         .titulo h1{
             font-family: 'Pacifico', cursive;
@@ -55,29 +56,28 @@ header{
             color: $header-logo;
             letter-spacing: 5px;
             font-size: 23px;
-           
+            padding: 0;        
         }
         .ul-mia{
             width: max-content;
             float:left;  
                
         }
-        .ul-mia li a {
-            font-size: 15px;
-            color:$header-navbar;
-
-           
+        .ul-mia li a {       
+            color:$header-navbar;         
         }
     }
+    /* Medias Query Tablet */
     @media  screen and (min-width: 401px) and (max-width:960px){
         header{
             position: fixed;
             z-index:1000;
             width: 100%;
-            background-color: $header-conteiner;
-            
-
-          
+            background-color: $header-conteiner;                 
+        }
+        .navbar{
+            padding: 0;
+            height: 45px;
         }
         .titulo h1{
             font-family: 'Pacifico', cursive;
@@ -85,13 +85,11 @@ header{
             padding-top: 13px;
         }
         .ul-mia{
-            width: max-content;
             float:left;
-        }
-      
-        
+            padding: 0;
+        }       
         .ul-mia li a {
-            font-size: 15px;
+            font-size: 12px;
             color:$header-navbar;
         }
         .ul-mia a:hover{
@@ -100,20 +98,23 @@ header{
             color: linen;
             transition: 1s;
         }
-        .logo h2{
+        .logo {
+            height: 40px;
+
+            h2{
             font-weight:bold;
             color: $header-logo;
             letter-spacing: 5px;
-            padding-top: 15px;
+            padding-top: 10px;
             font-size: 15px;
             height: 40px;
-           
+            }                    
         }
     
     }
 }
 .navbar-white{
-   color:  white;
+   color:  rgb(221, 17, 17);
 }
 
 /* fin de Navber */

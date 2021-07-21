@@ -1,17 +1,20 @@
 /* variables */
 /* colores header */
-/*  color footer */
-/*  color web inicio */
-/*  color web entradas */
+/* color footer */
+/* color web inicio */
+/* color web entradas */
 /* colores web platos principales */
 /* colores web postres */
 /* colores web galeria */
+/* Tipografia General */
 /* inicio de Navber */
 header {
   position: fixed;
   z-index: 1000;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.77);
+  /* Medias Query Mobil */
+  /* Medias Query Tablet */
 }
 header .titulo h1 {
   font-family: "Pacifico", cursive;
@@ -36,7 +39,7 @@ header .ul-mia {
 }
 header .ul-mia li a {
   width: max-content;
-  font-size: 19px;
+  font-size: 17px;
   color: linen;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -57,13 +60,13 @@ header .ul-mia li a:hover {
     color: linen;
     letter-spacing: 5px;
     font-size: 23px;
+    padding: 0;
   }
   header .ul-mia {
     width: max-content;
     float: left;
   }
   header .ul-mia li a {
-    font-size: 15px;
     color: linen;
   }
 }
@@ -74,17 +77,21 @@ header .ul-mia li a:hover {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.77);
   }
+  header .navbar {
+    padding: 0;
+    height: 45px;
+  }
   header .titulo h1 {
     font-family: "Pacifico", cursive;
     color: burlywood;
     padding-top: 13px;
   }
   header .ul-mia {
-    width: max-content;
     float: left;
+    padding: 0;
   }
   header .ul-mia li a {
-    font-size: 15px;
+    font-size: 12px;
     color: linen;
   }
   header .ul-mia a:hover {
@@ -93,29 +100,24 @@ header .ul-mia li a:hover {
     color: linen;
     transition: 1s;
   }
+  header .logo {
+    height: 40px;
+  }
   header .logo h2 {
     font-weight: bold;
     color: linen;
     letter-spacing: 5px;
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 15px;
     height: 40px;
   }
 }
 
 .navbar-white {
-  color: white;
+  color: #dd1111;
 }
 
 /* fin de Navber */
-/* variables */
-/* colores header */
-/*  color footer */
-/*  color web inicio */
-/*  color web entradas */
-/* colores web platos principales */
-/* colores web postres */
-/* colores web galeria */
 /* Inicio de section pagina Home */
 .container1 {
   padding-top: 250px;
@@ -146,7 +148,7 @@ header .ul-mia li a:hover {
   margin: auto;
   text-align: center;
   color: burlywood;
-  font-family: initial;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 55px;
   width: 50%;
   transition: all 3s ease-in-out;
@@ -155,6 +157,7 @@ header .ul-mia li a:hover {
   transform: rotatey(360deg);
 }
 .container-titulo-p p {
+  text-align: justify;
   margin: auto;
   width: 70%;
   color: white;
@@ -174,22 +177,21 @@ header .ul-mia li a:hover {
   font-size: 60px;
   margin-bottom: 10px;
   text-decoration: underline;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Pacifico", cursive;
 }
 
-.h3subtitulo {
+.h4subtitulo {
   font-size: 50px;
-  color: #c7a37e;
+  color: burlywood;
   margin: 20px 20px;
-  text-align: left;
+  text-align: justify;
   padding-left: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/*  parrafo de imagenes  */
 .parrafo {
   color: white;
-  text-align: left;
+  text-align: justify;
   margin: 20px;
   border-radius: 10px;
   padding: 20px;
@@ -201,11 +203,12 @@ header .ul-mia li a:hover {
   width: 60%;
   border-radius: 50px;
   height: 400px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0px;
+  object-fit: cover;
   box-shadow: 8px 10px 10px #909090;
 }
 
+/* Medias Query Mobil */
 @media screen and (max-width: 400px) {
   .container1 {
     padding-top: 120px;
@@ -239,7 +242,6 @@ header .ul-mia li a:hover {
   }
   .container-titulo-p p {
     margin: auto;
-    text-align: left;
     font-size: 20px;
   }
   .container-titulo-p p::first-letter {
@@ -271,12 +273,12 @@ header .ul-mia li a:hover {
   }
 
   .parrafo {
-    text-align: left;
     font-size: 15px;
     margin: 0px 10px;
     padding: 10px 25px;
   }
 }
+/* Medias Query Tablet */
 @media screen and (min-width: 401px) and (max-width: 960px) {
   .container1 {
     padding-top: 150px;
@@ -310,7 +312,6 @@ header .ul-mia li a:hover {
   }
   .container-titulo-p p {
     margin: auto;
-    text-align: left;
     font-size: 20px;
   }
   .container-titulo-p p::first-letter {
@@ -326,6 +327,13 @@ header .ul-mia li a:hover {
     margin-bottom: 10px;
   }
 
+  .imagenweb1 {
+    width: 50%;
+    height: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .h3subtitulo {
     font-size: 50px;
     margin: auto;
@@ -335,23 +343,17 @@ header .ul-mia li a:hover {
   .parrafo {
     margin: auto;
     padding: 20px;
+    font-size: 15px;
   }
 }
 /* Fin de section pagina Home */
-/* variables */
-/* colores header */
-/*  color footer */
-/*  color web inicio */
-/*  color web entradas */
-/* colores web platos principales */
-/* colores web postres */
-/* colores web galeria */
 /* inicio footer */
 .contenedorfooter {
   width: 100%;
   margin-top: 20px;
   padding-top: 20px;
   background-color: rgba(0, 0, 0, 0.872);
+  /* Medias Query Tablet */
 }
 .contenedorfooter .conteiner-columna {
   display: flex;
@@ -421,7 +423,6 @@ header .ul-mia li a:hover {
   }
   .contenedorfooter .conteiner-columna .cont-fila {
     display: flex;
-    /* justify-content:; */
   }
   .contenedorfooter .conteiner-columna .fila label {
     display: none;
@@ -526,6 +527,7 @@ header .ul-mia li a:hover {
   font-size: 15px;
   margin-left: 15px;
   font-family: "Prompt", sans-serif;
+  text-align: justify;
 }
 
 .container-e-img-p-2-4 {
@@ -543,9 +545,10 @@ header .ul-mia li a:hover {
   font-size: 15px;
   margin-right: 15px;
   font-family: "Prompt", sans-serif;
+  text-align: justify;
 }
 
-/* Aplicacion de @media Querin  al link de Entradas*/
+/* Medias Query Mobil */
 @media screen and (max-width: 400px) {
   .containerentrada {
     width: 100%;
@@ -571,7 +574,6 @@ header .ul-mia li a:hover {
   .parrafoentradas-1-3-5 {
     margin-left: 0;
     padding: 10px;
-    text-align: left;
   }
 
   .container-e-img-p-2-4 {
@@ -583,7 +585,6 @@ header .ul-mia li a:hover {
   .parrafoentradas-2-4 {
     margin: 0;
     padding: 10px;
-    text-align: left;
   }
 
   .containerentrada h2 {
@@ -592,6 +593,7 @@ header .ul-mia li a:hover {
     padding-bottom: 20px;
   }
 }
+/* Medias Query Tablet */
 @media screen and (min-width: 401px) and (max-width: 960px) {
   .sectionentradas {
     padding-top: 200px;
@@ -621,7 +623,6 @@ header .ul-mia li a:hover {
 
   .parrafoentradas-1-3-5 {
     padding: 5px;
-    font-size: 17px;
     margin: 15px;
   }
 
@@ -632,7 +633,7 @@ header .ul-mia li a:hover {
   }
 
   .container-e-img-p-2-4 img {
-    float: left;
+    float: right;
     margin: 15px;
   }
 
@@ -643,14 +644,6 @@ header .ul-mia li a:hover {
   }
 }
 /* Fin de Entradas */
-/* variables */
-/* colores header */
-/*  color footer */
-/*  color web inicio */
-/*  color web entradas */
-/* colores web platos principales */
-/* colores web postres */
-/* colores web galeria */
 /* link pagina platos principales */
 .contenidoweb2 {
   padding-top: 200px;
@@ -659,24 +652,25 @@ header .ul-mia li a:hover {
   text-align: center;
 }
 .contenidoweb2 .imagenweb2 {
-  margin: 40px;
-  width: 65%;
+  width: 60%;
   border-radius: 50px;
   height: 450px;
   box-shadow: 8px 10px 10px #909090;
   object-fit: cover;
+  margin: 40px 0px;
 }
 .contenidoweb2 .h3subtitulo {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Pacifico", cursive;
   font-size: 50px;
   color: burlywood;
   margin: auto;
+  text-align: center;
 }
 .contenidoweb2 .parrafo {
   color: white;
   margin-bottom: 50px;
   text-align: justify;
-  margin: 20px;
+  margin: 0;
   border-radius: 10px;
   padding: 20px;
   font-size: 20px;
@@ -684,6 +678,7 @@ header .ul-mia li a:hover {
   font-family: "Prompt", sans-serif;
 }
 
+/* Medias Query Mobil */
 @media screen and (max-width: 400px) {
   .contenidoweb2 {
     padding-top: 100px;
@@ -701,10 +696,11 @@ header .ul-mia li a:hover {
   .contenidoweb2 .h3subtitulo {
     font-size: 35px;
     margin: auto;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-top: 0px;
   }
 }
+/* Medias Query Tablet */
 @media screen and (min-width: 401px) and (max-width: 960px) {
   .contenidoweb2 {
     padding-top: 150px;
@@ -756,6 +752,7 @@ header .ul-mia li a:hover {
   font-size: 15px;
   margin-left: 15px;
   font-family: "Prompt", sans-serif;
+  text-align: justify;
 }
 
 .conteiner-img-p-2-4 {
@@ -775,7 +772,7 @@ header .ul-mia li a:hover {
   font-family: "Prompt", sans-serif;
 }
 
-/* media query de link postre */
+/* Medias Query Mobil */
 @media screen and (max-width: 400px) {
   .conteinerpostre {
     width: 100%;
@@ -801,7 +798,7 @@ header .ul-mia li a:hover {
   .parrafopostres-1-3-5 {
     margin-left: 0;
     padding: 10px;
-    text-align: left;
+    text-align: justify;
   }
 
   .conteiner-img-p-2-4 {
@@ -812,7 +809,7 @@ header .ul-mia li a:hover {
   .parrafopostres2-4 {
     margin-right: 0;
     padding: 10px;
-    text-align: left;
+    text-align: justify;
   }
 
   .conteinerpostre h2 {
@@ -820,6 +817,7 @@ header .ul-mia li a:hover {
     text-align: center;
   }
 }
+/* Medias Query Tablet */
 @media screen and (min-width: 401px) and (max-width: 896px) {
   .sectionpostres {
     padding-top: 200px;
@@ -876,34 +874,32 @@ header .ul-mia li a:hover {
 /* Inicio de galeria */
 .carousel {
   padding-top: 180px;
+  padding-bottom: 70px;
 }
 
 .carousel-inner img {
-  height: 80vh;
+  height: 70vh;
 }
 
 .carousel-caption h5 {
-  font-size: 70px;
-  color: #dfa017;
+  font-size: 60px;
+  color: #eeece9;
   font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   padding-bottom: 20px;
-  text-shadow: 5px 5px 8px #c7b6b6;
+  text-shadow: 5px 5px 8px black;
   text-decoration: underline;
-  font-family: "Satisfy", cursive;
 }
 
 .gallery {
   padding: 0;
   margin-bottom: 0;
-  background-color: #282c34;
 }
 
 .gallery--item {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 20px coral;
   transition: transform 0.3s ease-in-out;
 }
 .gallery--item:hover {
@@ -911,7 +907,7 @@ header .ul-mia li a:hover {
   transform: scale(1.04);
 }
 
-.conteiner {
+.container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: minmax(200px, auto);
@@ -923,7 +919,7 @@ header .ul-mia li a:hover {
   margin-right: auto;
   max-width: 1000px;
 }
-.conteiner img {
+.container img {
   object-fit: cover;
   height: 250px;
   width: 100%;
@@ -936,12 +932,14 @@ header .ul-mia li a:hover {
   padding: 20px 0px;
   font-size: 60px;
   color: burlywood;
-  font-family: monospace;
+  font-family: "Pacifico", cursive;
 }
 
+/* Medias Query Mobil */
 @media screen and (max-width: 400px) {
   .carousel {
     padding-top: 130px;
+    padding-bottom: 20px;
   }
 
   .carousel-inner img {
@@ -956,9 +954,27 @@ header .ul-mia li a:hover {
     grid-template-columns: repeat(1, minmax(250px, 1fr));
   }
 }
+/* Medias Query Tablet */
 @media screen and (min-width: 401px) and (max-width: 960px) {
+  .carousel {
+    padding-top: 180px;
+    padding-bottom: 70px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 30px;
+  }
+
+  .carousel-inner img {
+    height: 60vh;
+  }
+
   .conteiner {
     grid-template-columns: repeat(2, minmax(50%, 1fr));
+  }
+
+  .titulo h2 {
+    font-size: 50px;
   }
 
   .wide {
@@ -970,6 +986,14 @@ header .ul-mia li a:hover {
   }
 }
 /* Fin de Galeria */
+/* colores header */
+/* color footer */
+/* color web inicio */
+/* color web entradas */
+/* colores web platos principales */
+/* colores web postres */
+/* colores web galeria */
+/* Tipografia General */
 /* fonde de la pagina */
 body {
   background-image: url(../Imagenes/fonfo3.jpg);

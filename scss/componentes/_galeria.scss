@@ -2,37 +2,36 @@
 /* Inicio de galeria */
 .carousel{
     padding-top: 180px;
+    padding-bottom: 70px;
 }
 .carousel-inner{
    
     img{
    
-      height: 80vh;
+      height: 70vh;
  }
 }
 .carousel-caption h5{
-    font-size: 70px;
+    font-size: 60px;
     color: $web4-h5;
     font-family:'Times New Roman', Times, serif;
     font-weight: 600;
     padding-bottom: 20px;
     text-shadow: 5px 5px 8px $web4-shadow;
     text-decoration: underline;
-    font-family: 'Satisfy', cursive;
+    
     
 }
 .gallery{
     padding: 0;
-    margin-bottom: 0;
-    background-color: #282c34;
-    
+    margin-bottom: 0;  
 }
 
 .gallery--item{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 20px coral;
+
   
   transition: transform 0.3s ease-in-out;
 
@@ -41,7 +40,7 @@
     transform: scale(1.04);
 }  
 }
-.conteiner{
+.container{
   
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -71,19 +70,22 @@
         padding: 20px 0px;
         font-size: 60px;
         color: burlywood;
-        font-family:monospace;
+        font-family:$font-titulos;
     }
    
 
 }
+/* Medias Query Mobil */
 @media  screen and (max-width: 400px){
     .carousel{
         padding-top: 130px;
+        padding-bottom: 20px;
+
     }
-  
+
     .carousel-inner{
       
-        img{   
+        img{  
           height: 55vh;
         }
     }
@@ -92,7 +94,7 @@
         h2{
            font-size: 30px;
             }
-       }
+    }
     .conteiner{
         
         grid-template-columns: repeat(1, minmax(250px, 1fr));
@@ -100,10 +102,32 @@
     }
 
   }
+  /* Medias Query Tablet */
   @media  screen and (min-width: 401px) and (max-width:960px){
+    .carousel{
+        padding-top: 180px;
+        padding-bottom: 70px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+
+    }
+    .carousel-inner{
+   
+        img{
+       
+          height: 60vh;
+        }
+    }
     .conteiner{
       
         grid-template-columns: repeat(2, minmax(50%, 1fr));
+    }
+    .titulo{
+
+        h2{
+           font-size: 50px;
+            }
     }
    .wide {
       grid-column: span 2;

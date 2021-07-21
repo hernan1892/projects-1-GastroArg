@@ -1,9 +1,5 @@
 
-/* variables */
-@import "../bases/variables";
  /* inicio footer */
-
- 
    .contenedorfooter{
     width: 100%;
     margin-top: 20px;
@@ -23,7 +19,7 @@
         h4 {
          font-size: 30px;
          text-decoration: underline;
-         color: $footer-h4;               
+         color: $footer-h4;         
         }
         .fila{
           margin-top:20px ;
@@ -90,8 +86,7 @@
        }
        .cont-fila {
          display: flex;
-         /* justify-content:; */
-        
+         
        }
        .fila label {
          display: none;
@@ -137,7 +132,8 @@
         text-align:left;      
        }          
      }             
-   }   
+   }
+   /* Medias Query Tablet */   
    @media  screen and (min-width: 401px) and (max-width:960px){
      
     .conteiner-columna {

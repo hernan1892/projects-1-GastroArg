@@ -1,5 +1,4 @@
-/* variables */
-@import "../bases/variables";
+
 
 /* Inicio de section pagina Home */
 .container1{  
@@ -28,8 +27,8 @@
     h3{
         margin: auto;
         text-align: center;      
-        color: burlywood;; 
-        font-family:initial;
+        color: $web0-h3; 
+        font-family:$font-h3-h4;
         font-size: 55px;
         width: 50%;
         transition: all 3s ease-in-out;
@@ -41,7 +40,7 @@
 
     }
     p{
-      
+        text-align: justify;
         margin: auto;
         width: 70%;
         color: $web0-parrafo ;
@@ -62,24 +61,24 @@
         font-size: 60px;
         margin-bottom: 10px;
         text-decoration: underline;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: $font-titulos;
     }
        
 }    
     
-     .h3subtitulo {
+     .h4subtitulo {
         font-size: 50px;
         color: $web0-h3;
         margin: 20px 20px;
-        text-align: left; 
+        text-align:justify; 
         padding-left: 20px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family:$font-h3-h4;
 
     } 
-    /*  parrafo de imagenes  */
+
     .parrafo {
         color:$web0-parrafo;     
-        text-align: left;
+        text-align: justify;
         margin:20px;
         border-radius: 10px;      
         padding: 20px;
@@ -90,11 +89,11 @@
         width: 60%;
         border-radius: 50px;
         height: 400px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin: 40px 0px;
+        object-fit: cover;
         box-shadow: 8px 10px 10px $web0-img-border;
     }
-
+ /* Medias Query Mobil */
     @media  screen and (max-width: 400px){
         .container1{  
             padding-top: 120px;
@@ -126,7 +125,7 @@
             }
             p{
                 margin: auto;
-                text-align: left;
+               
                 font-size: 20px;
             }
             p::first-letter{
@@ -155,15 +154,14 @@
             padding-left: 35px;
             margin: 0; 
         } 
-        .parrafo {
-            text-align: left;             
+        .parrafo {         
             font-size: 15px;
             margin: 0px 10px;
             padding: 10px 25px;
         } 
     }
 
-   
+  /* Medias Query Tablet */ 
     @media  screen and (min-width: 401px) and (max-width:960px){
         .container1{  
             padding-top: 150px;
@@ -195,7 +193,6 @@
             }
             p{
                 margin: auto;
-                text-align: left;
                 font-size: 20px;
             }
             p::first-letter{
@@ -212,7 +209,13 @@
                        
             }
                
-        }    
+        } 
+        .imagenweb1 {      
+            width: 50%;
+            height: 330px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }      
             
              .h3subtitulo {
                 font-size: 50px;
@@ -220,17 +223,13 @@
                 text-align: left; 
              
             } 
-            .parrafo {            
+            .parrafo {          
                 margin:auto;
-                padding: 20px;      
-                   
+                padding: 20px; 
+                font-size: 15px ;                                     
+          
             } 
-         
-           
+             
     }
-    
-
-
-
 
 /* Fin de section pagina Home */

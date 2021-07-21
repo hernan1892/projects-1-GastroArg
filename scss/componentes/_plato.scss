@@ -1,5 +1,4 @@
-/* variables */
-@import "../bases/variables";
+
 
 /* link pagina platos principales */
 .contenidoweb2{
@@ -10,32 +9,36 @@
     }
 
     .imagenweb2 {
-        margin: 40px;
-        width: 65%;
+        width: 60%;
         border-radius: 50px;
         height: 450px;
         box-shadow: 8px 10px 10px $web2-img-border;
         object-fit: cover;
+        margin: 40px 0px;
     }
     .h3subtitulo {
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family:$font-titulos;
         font-size: 50px;
         color: $web2-h3;
         margin: auto;  
+        text-align: center;
+        
+
     }
     .parrafo {
         color:$web2-parrafo;
         margin-bottom: 50px;
         text-align: justify;
-        margin:20px;
+        margin:0;
         border-radius: 10px;
         padding: 20px;
         font-size: 20px;
         padding-top: 20px;
-        font-family: 'Prompt', sans-serif;
+        font-family: $font-p;
     }
    
 }
+/* Medias Query Mobil */
 @media  screen and (max-width: 400px){
     .contenidoweb2{
        padding-top: 100px;
@@ -53,7 +56,7 @@
      .h3subtitulo {
         font-size: 35px;
         margin: auto;
-        padding-left: 20px;
+        padding-left: 0px;
         padding-top: 0px;
      }
                
@@ -62,6 +65,7 @@
 
   
 }
+/* Medias Query Tablet */
 @media  screen and (min-width: 401px) and (max-width:960px){
     .contenidoweb2{
         padding-top: 150px;

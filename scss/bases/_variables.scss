@@ -4,19 +4,19 @@
  $header-navbar:linen;
  $header-logo:linen;
 
- /*  color footer */
+ /* color footer */
 
  $footer-conteiner:rgba(0, 0, 0, 0.872);
  $footer-h4:rgb(242, 228, 228);
  $footer-lebel:rgb(245, 212, 212);
 
- /*  color web inicio */
+ /* color web inicio */
  $web0-h2:burlywood;
- $web0-h3: rgb(199, 163, 126);
+ $web0-h3: burlywood;
  $web0-parrafo:white;
  $web0-img-border:#909090;
 
- /*  color web entradas */
+ /* color web entradas */
  $web1-h2:burlywood;
  $web1-parrafo:rgba(242, 234, 234, 0.959);
 
@@ -26,12 +26,17 @@
  $web2-img-border:#909090;
  $web2-parrafo:white;
 
-
-
  /* colores web postres */
  $web3-h2:burlywood;
  $web3-parrafo:rgba(242, 234, 234, 0.959);;
+ 
  /* colores web galeria */
- $web4-h5:rgb(223, 160, 23);
- $web4-shadow:rgb(199, 182, 182)
+ $web4-h5:rgb(238, 236, 233);
+ $web4-shadow:rgb(0, 0, 0);
 
+
+ /* Tipografia General */
+ $font-h3-h4:Georgia, 'Times New Roman', Times, serif;
+ $font-titulos:'Pacifico', cursive;
+ $font-p: 'Prompt', sans-serif;
+ $font-navbar:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
